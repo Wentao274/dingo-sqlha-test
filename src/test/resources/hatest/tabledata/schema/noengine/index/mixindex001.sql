@@ -1,0 +1,22 @@
+CREATE TABLE $table (
+    id int not null auto_increment,
+    name varchar(32),
+    age int,
+    gmt bigint,
+    price FLOAT,
+    amount DOUBLE,
+    address varchar(255),
+    birthday DATE,
+    create_time TIME,
+    update_time TIMESTAMP,
+    zip_code varchar(20),
+    is_delete boolean,
+    feature float array not null,
+    user_info any,
+    feature_id bigint not null,
+    PRIMARY KEY (id),
+    index age_index (age) with (user_info),
+    index name_index (name) with (address) partition by range values ('D'),('j'),('Z'),
+    index birthday_index (birthday) partition by hash partitions=5,
+    index feature_index vector(feature_id, feature) partition by hash partitions=5 parameters(type=hnsw, metricType=L2, dimension=64, efConstruction=40, nlinks=32)
+) partition by range values (100),(500)

@@ -1,0 +1,1449 @@
+2024-04-03 10:19:32.990 [main] ERROR c.alibaba.druid.pool.DruidDataSource - testWhileIdle is true, validationQuery not set
+2024-04-03 10:19:33.010 [main] INFO  i.d.driver.client.DingoDriverClient - info:{remoteHost=172.20.3.13, port=8765, user=root, password=123123, host=10.230.212.111, timeout=1500, dbname=DINGO}
+2024-04-03 10:19:44.778 [main] INFO  io.dingodb.net.netty.Connection - Connection handshake success, remote: [172.20.3.13:8765]
+2024-04-03 10:19:45.693 [main] INFO  i.d.verify.auth.IdentityAuthService - IdentityAuth: io.dingodb.driver.auth.service.IdentityAuthImpl@63f8276e
+2024-04-03 10:19:45.700 [main] INFO  i.d.verify.auth.TokenAuthService - tokenAuth = null
+2024-04-03 10:19:46.902 [main] INFO  io.dingodb.net.netty.Connection - Connection auth success, remote: [172.20.3.13:8765]
+2024-04-03 10:19:46.906 [main] INFO  io.dingodb.net.netty.NetService - Connection open, remote: [Location(host=172.20.3.13, port=8765)].
+2024-04-03 10:19:48.432 [main] INFO  i.d.driver.client.DingoDriverClient - info:{remoteHost=172.20.3.13, port=8765, user=root, password=123123, host=10.230.212.111, timeout=1500, dbname=DINGO}
+2024-04-03 10:19:48.449 [main] INFO  i.d.driver.client.DingoDriverClient - info:{remoteHost=172.20.3.13, port=8765, user=root, password=123123, host=10.230.212.111, timeout=1500, dbname=DINGO}
+2024-04-03 10:19:48.464 [main] INFO  i.d.driver.client.DingoDriverClient - info:{remoteHost=172.20.3.13, port=8765, user=root, password=123123, host=10.230.212.111, timeout=1500, dbname=DINGO}
+2024-04-03 10:19:48.478 [main] INFO  i.d.driver.client.DingoDriverClient - info:{remoteHost=172.20.3.13, port=8765, user=root, password=123123, host=10.230.212.111, timeout=1500, dbname=DINGO}
+2024-04-03 10:19:48.491 [main] INFO  i.d.driver.client.DingoDriverClient - info:{remoteHost=172.20.3.13, port=8765, user=root, password=123123, host=10.230.212.111, timeout=1500, dbname=DINGO}
+2024-04-03 10:19:48.507 [main] INFO  i.d.driver.client.DingoDriverClient - info:{remoteHost=172.20.3.13, port=8765, user=root, password=123123, host=10.230.212.111, timeout=1500, dbname=DINGO}
+2024-04-03 10:19:48.521 [main] INFO  i.d.driver.client.DingoDriverClient - info:{remoteHost=172.20.3.13, port=8765, user=root, password=123123, host=10.230.212.111, timeout=1500, dbname=DINGO}
+2024-04-03 10:19:48.546 [main] INFO  c.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2024-04-03 10:19:49.858 [TestNG-PoolService-1] INFO  io.dingodb.hatest.TestHA - -----------------------------------------------------------------------------------------------
+2024-04-03 10:19:49.858 [TestNG-PoolService-2] INFO  io.dingodb.hatest.TestHA - -----------------------------------------------------------------------------------------------
+2024-04-03 10:19:49.858 [TestNG-PoolService-0] INFO  io.dingodb.hatest.TestHA - -----------------------------------------------------------------------------------------------
+2024-04-03 10:19:49.859 [TestNG-PoolService-3] INFO  io.dingodb.hatest.TestHA - -----------------------------------------------------------------------------------------------
+2024-04-03 10:19:49.859 [TestNG-PoolService-1] INFO  io.dingodb.hatest.TestHA - 测试用例ID： sqlha_002
+2024-04-03 10:19:49.859 [TestNG-PoolService-2] INFO  io.dingodb.hatest.TestHA - 测试用例ID： sqlha_003
+2024-04-03 10:19:49.859 [TestNG-PoolService-0] INFO  io.dingodb.hatest.TestHA - 测试用例ID： sqlha_001
+2024-04-03 10:19:49.859 [TestNG-PoolService-3] INFO  io.dingodb.hatest.TestHA - 测试用例ID： sqlha_004
+2024-04-03 10:19:58.290 [TestNG-PoolService-2] INFO  io.dingodb.hatest.TestHA - 验证表的raft已提交日志一致。
+2024-04-03 10:19:58.502 [TestNG-PoolService-1] INFO  io.dingodb.hatest.TestHA - 验证表的raft已提交日志一致。
+2024-04-03 10:19:58.881 [TestNG-PoolService-3] INFO  io.dingodb.hatest.TestHA - 验证表的raft已提交日志一致。
+2024-04-03 10:19:59.083 [TestNG-PoolService-0] INFO  io.dingodb.hatest.TestHA - 验证表的raft已提交日志一致。
+2024-04-03 10:20:02.587 [TestNG-PoolService-3] INFO  io.dingodb.hatest.TestHA - 表partition和region: [60381\[80281\], 60382\[80285\], 60383\[80288\]]
+2024-04-03 10:20:02.587 [TestNG-PoolService-1] INFO  io.dingodb.hatest.TestHA - 表partition和region: [60364\[80279\], 60365\[80282\], 60366\[80284\]]
+2024-04-03 10:20:02.587 [TestNG-PoolService-2] INFO  io.dingodb.hatest.TestHA - 表partition和region: [60433\[80280\], 60434\[80283\], 60435\[80287\]]
+2024-04-03 10:20:02.587 [TestNG-PoolService-0] INFO  io.dingodb.hatest.TestHA - 表partition和region: [60370\[80276\], 60371\[80277\], 60372\[80278\]]
+2024-04-03 10:20:02.588 [TestNG-PoolService-2] INFO  io.dingodb.hatest.TestHA - raft节点:172.20.3.13:20101
+2024-04-03 10:20:02.588 [TestNG-PoolService-0] INFO  io.dingodb.hatest.TestHA - raft节点:172.20.3.13:20101
+2024-04-03 10:20:02.588 [TestNG-PoolService-3] INFO  io.dingodb.hatest.TestHA - raft节点:172.20.3.13:20101
+2024-04-03 10:20:02.588 [TestNG-PoolService-1] INFO  io.dingodb.hatest.TestHA - raft节点:172.20.3.13:20101
+2024-04-03 10:20:02.883 [TestNG-PoolService-1] INFO  io.dingodb.hatest.TestHA - raft节点172.20.3.13:20101->[6, 3, 7]
+2024-04-03 10:20:02.884 [TestNG-PoolService-1] INFO  io.dingodb.hatest.TestHA - raft节点:172.20.3.219:20101
+2024-04-03 10:20:02.891 [TestNG-PoolService-0] INFO  io.dingodb.hatest.TestHA - raft节点172.20.3.13:20101->[6, 3, 7]
+2024-04-03 10:20:02.892 [TestNG-PoolService-0] INFO  io.dingodb.hatest.TestHA - raft节点:172.20.3.219:20101
+2024-04-03 10:20:02.906 [TestNG-PoolService-2] INFO  io.dingodb.hatest.TestHA - raft节点172.20.3.13:20101->[6, 3, 7]
+2024-04-03 10:20:02.906 [TestNG-PoolService-2] INFO  io.dingodb.hatest.TestHA - raft节点:172.20.3.219:20101
+2024-04-03 10:20:02.926 [TestNG-PoolService-3] INFO  io.dingodb.hatest.TestHA - raft节点172.20.3.13:20101->[7, 3, 7]
+2024-04-03 10:20:02.927 [TestNG-PoolService-3] INFO  io.dingodb.hatest.TestHA - raft节点:172.20.3.219:20101
+2024-04-03 10:20:03.133 [TestNG-PoolService-1] INFO  io.dingodb.hatest.TestHA - raft节点172.20.3.219:20101->[6, 3, 7]
+2024-04-03 10:20:03.133 [TestNG-PoolService-1] INFO  io.dingodb.hatest.TestHA - raft节点:172.20.3.15:20101
+2024-04-03 10:20:03.157 [TestNG-PoolService-0] INFO  io.dingodb.hatest.TestHA - raft节点172.20.3.219:20101->[6, 3, 7]
+2024-04-03 10:20:03.157 [TestNG-PoolService-0] INFO  io.dingodb.hatest.TestHA - raft节点:172.20.3.15:20101
+2024-04-03 10:20:03.162 [TestNG-PoolService-2] INFO  io.dingodb.hatest.TestHA - raft节点172.20.3.219:20101->[6, 3, 7]
+2024-04-03 10:20:03.162 [TestNG-PoolService-2] INFO  io.dingodb.hatest.TestHA - raft节点:172.20.3.15:20101
+2024-04-03 10:20:03.170 [TestNG-PoolService-3] INFO  io.dingodb.hatest.TestHA - raft节点172.20.3.219:20101->[7, 3, 7]
+2024-04-03 10:20:03.171 [TestNG-PoolService-3] INFO  io.dingodb.hatest.TestHA - raft节点:172.20.3.15:20101
+2024-04-03 10:20:03.347 [TestNG-PoolService-1] INFO  io.dingodb.hatest.TestHA - raft节点172.20.3.15:20101->[6, 3, 7]
+2024-04-03 10:20:03.348 [TestNG-PoolService-1] INFO  io.dingodb.hatest.TestHA - 每个节点的table_last_commit_index: [[6, 3, 7], [6, 3, 7], [6, 3, 7]]
+2024-04-03 10:20:03.355 [TestNG-PoolService-1] INFO  io.dingodb.hatest.TestHA - ================================================
+2024-04-03 10:20:03.356 [TestNG-PoolService-1] INFO  io.dingodb.hatest.TestHA - 验证标量索引的raft已提交日志一致
+2024-04-03 10:20:03.364 [TestNG-PoolService-0] INFO  io.dingodb.hatest.TestHA - raft节点172.20.3.15:20101->[6, 3, 7]
+2024-04-03 10:20:03.364 [TestNG-PoolService-0] INFO  io.dingodb.hatest.TestHA - 每个节点的table_last_commit_index: [[6, 3, 7], [6, 3, 7], [6, 3, 7]]
+2024-04-03 10:20:03.364 [TestNG-PoolService-0] INFO  io.dingodb.hatest.TestHA - ================================================
+2024-04-03 10:20:03.364 [TestNG-PoolService-0] INFO  io.dingodb.hatest.TestHA - 验证标量索引的raft已提交日志一致
+2024-04-03 10:20:03.375 [TestNG-PoolService-2] INFO  io.dingodb.hatest.TestHA - raft节点172.20.3.15:20101->[6, 3, 7]
+2024-04-03 10:20:03.375 [TestNG-PoolService-2] INFO  io.dingodb.hatest.TestHA - 每个节点的table_last_commit_index: [[6, 3, 7], [6, 3, 7], [6, 3, 7]]
+2024-04-03 10:20:03.375 [TestNG-PoolService-2] INFO  io.dingodb.hatest.TestHA - ================================================
+2024-04-03 10:20:03.375 [TestNG-PoolService-2] INFO  io.dingodb.hatest.TestHA - 验证标量索引的raft已提交日志一致
+2024-04-03 10:20:03.384 [TestNG-PoolService-3] INFO  io.dingodb.hatest.TestHA - raft节点172.20.3.15:20101->[7, 3, 7]
+2024-04-03 10:20:03.384 [TestNG-PoolService-3] INFO  io.dingodb.hatest.TestHA - 每个节点的table_last_commit_index: [[7, 3, 7], [7, 3, 7], [7, 3, 7]]
+2024-04-03 10:20:03.384 [TestNG-PoolService-3] INFO  io.dingodb.hatest.TestHA - ================================================
+2024-04-03 10:20:03.384 [TestNG-PoolService-3] INFO  io.dingodb.hatest.TestHA - 验证标量索引的raft已提交日志一致
+2024-04-03 10:20:06.483 [TestNG-PoolService-1] INFO  io.dingodb.hatest.TestHA - 标量索引partition和region: {SQLHA_002_MIXINDEX001.NAME_INDEX=[60376\[80295\], 60377\[80297\], 60378\[80298\], 60379\[80299\]], SQLHA_002_MIXINDEX001.BIRTHDAY_INDEX=[60396\[80308\], 60397\[80311\], 60398\[80313\], 60399\[80316\], 60400\[80317\]], SQLHA_002_MIXINDEX001.AGE_INDEX=[60368\[80289\]]}
+2024-04-03 10:20:06.484 [TestNG-PoolService-1] INFO  io.dingodb.hatest.TestHA - raft节点:172.20.3.13:20101
+2024-04-03 10:20:06.484 [TestNG-PoolService-3] INFO  io.dingodb.hatest.TestHA - 标量索引partition和region: {SQLHA_004_MIXINDEX001.BIRTHDAY_INDEX=[60415\[80318\], 60416\[80319\], 60417\[80320\], 60418\[80322\], 60419\[80324\]], SQLHA_004_MIXINDEX001.AGE_INDEX=[60408\[80291\]], SQLHA_004_MIXINDEX001.NAME_INDEX=[60410\[80300\], 60411\[80301\], 60412\[80302\], 60413\[80304\]]}
+2024-04-03 10:20:06.484 [TestNG-PoolService-3] INFO  io.dingodb.hatest.TestHA - raft节点:172.20.3.13:20101
+2024-04-03 10:20:06.484 [TestNG-PoolService-0] INFO  io.dingodb.hatest.TestHA - 标量索引partition和region: {SQLHA_001_MIXINDEX001.BIRTHDAY_INDEX=[60390\[80305\], 60391\[80307\], 60392\[80310\], 60393\[80314\], 60394\[80315\]], SQLHA_001_MIXINDEX001.NAME_INDEX=[60385\[80290\], 60386\[80293\], 60387\[80294\], 60388\[80296\]], SQLHA_001_MIXINDEX001.AGE_INDEX=[60374\[80286\]]}
+2024-04-03 10:20:06.484 [TestNG-PoolService-0] INFO  io.dingodb.hatest.TestHA - raft节点:172.20.3.13:20101
+2024-04-03 10:20:06.484 [TestNG-PoolService-2] INFO  io.dingodb.hatest.TestHA - 标量索引partition和region: {SQLHA_003_MIXINDEX001.NAME_INDEX=[60439\[80303\], 60440\[80306\], 60441\[80309\], 60442\[80312\]], SQLHA_003_MIXINDEX001.BIRTHDAY_INDEX=[60444\[80321\], 60445\[80323\], 60446\[80326\], 60447\[80328\], 60448\[80330\]], SQLHA_003_MIXINDEX001.AGE_INDEX=[60437\[80292\]]}
+2024-04-03 10:20:06.485 [TestNG-PoolService-2] INFO  io.dingodb.hatest.TestHA - raft节点:172.20.3.13:20101
+2024-04-03 10:20:06.696 [TestNG-PoolService-1] INFO  io.dingodb.hatest.TestHA - raft节点172.20.3.13:20101->[5, 5, 5, 5]
+2024-04-03 10:20:06.696 [TestNG-PoolService-1] INFO  io.dingodb.hatest.TestHA - raft节点:172.20.3.219:20101
+2024-04-03 10:20:06.698 [TestNG-PoolService-2] INFO  io.dingodb.hatest.TestHA - raft节点172.20.3.13:20101->[5, 5, 5, 5]
+2024-04-03 10:20:06.698 [TestNG-PoolService-2] INFO  io.dingodb.hatest.TestHA - raft节点:172.20.3.219:20101
+2024-04-03 10:20:06.761 [TestNG-PoolService-0] INFO  io.dingodb.hatest.TestHA - raft节点172.20.3.13:20101->[5, 5, 5, 5, 5]
+2024-04-03 10:20:06.762 [TestNG-PoolService-0] INFO  io.dingodb.hatest.TestHA - raft节点:172.20.3.219:20101
+2024-04-03 10:20:06.785 [TestNG-PoolService-3] INFO  io.dingodb.hatest.TestHA - raft节点172.20.3.13:20101->[5, 5, 5, 5, 5]
+2024-04-03 10:20:06.785 [TestNG-PoolService-3] INFO  io.dingodb.hatest.TestHA - raft节点:172.20.3.219:20101
+2024-04-03 10:20:06.919 [TestNG-PoolService-1] INFO  io.dingodb.hatest.TestHA - raft节点172.20.3.219:20101->[5, 5, 5, 5]
+2024-04-03 10:20:06.919 [TestNG-PoolService-1] INFO  io.dingodb.hatest.TestHA - raft节点:172.20.3.15:20101
+2024-04-03 10:20:06.926 [TestNG-PoolService-2] INFO  io.dingodb.hatest.TestHA - raft节点172.20.3.219:20101->[5, 5, 5, 5]
+2024-04-03 10:20:07.077 [TestNG-PoolService-0] INFO  io.dingodb.hatest.TestHA - raft节点172.20.3.219:20101->[5, 5, 5, 5, 5]
+2024-04-03 10:20:07.081 [TestNG-PoolService-3] INFO  io.dingodb.hatest.TestHA - raft节点172.20.3.219:20101->[5, 5, 5, 5, 5]
+2024-04-03 10:20:07.153 [TestNG-PoolService-1] INFO  io.dingodb.hatest.TestHA - raft节点172.20.3.15:20101->[5, 5, 5, 5]
+2024-04-03 10:20:07.197 [TestNG-PoolService-3] INFO  io.dingodb.hatest.TestHA - raft节点:172.20.3.15:20101
+2024-04-03 10:20:07.197 [TestNG-PoolService-0] INFO  io.dingodb.hatest.TestHA - raft节点:172.20.3.15:20101
+2024-04-03 10:20:07.197 [TestNG-PoolService-2] INFO  io.dingodb.hatest.TestHA - raft节点:172.20.3.15:20101
+2024-04-03 10:20:07.197 [TestNG-PoolService-1] INFO  io.dingodb.hatest.TestHA - 标量索引--SQLHA_002_MIXINDEX001.NAME_INDEX--[[5, 5, 5, 5], [5, 5, 5, 5], [5, 5, 5, 5]]
+2024-04-03 10:20:07.198 [TestNG-PoolService-1] INFO  io.dingodb.hatest.TestHA - raft节点:172.20.3.13:20101
+2024-04-03 10:20:07.556 [TestNG-PoolService-2] INFO  io.dingodb.hatest.TestHA - raft节点172.20.3.15:20101->[5, 5, 5, 5]
+2024-04-03 10:20:07.556 [TestNG-PoolService-2] INFO  io.dingodb.hatest.TestHA - 标量索引--SQLHA_003_MIXINDEX001.NAME_INDEX--[[5, 5, 5, 5], [5, 5, 5, 5], [5, 5, 5, 5]]
+2024-04-03 10:20:07.556 [TestNG-PoolService-2] INFO  io.dingodb.hatest.TestHA - raft节点:172.20.3.13:20101
+2024-04-03 10:20:07.597 [TestNG-PoolService-1] INFO  io.dingodb.hatest.TestHA - raft节点172.20.3.13:20101->[5, 5, 5, 5, 5]
+2024-04-03 10:20:07.598 [TestNG-PoolService-1] INFO  io.dingodb.hatest.TestHA - raft节点:172.20.3.219:20101
+2024-04-03 10:20:07.632 [TestNG-PoolService-0] INFO  io.dingodb.hatest.TestHA - raft节点172.20.3.15:20101->[5, 5, 5, 5, 5]
+2024-04-03 10:20:07.633 [TestNG-PoolService-0] INFO  io.dingodb.hatest.TestHA - 标量索引--SQLHA_001_MIXINDEX001.BIRTHDAY_INDEX--[[5, 5, 5, 5, 5], [5, 5, 5, 5, 5], [5, 5, 5, 5, 5]]
+2024-04-03 10:20:07.633 [TestNG-PoolService-0] INFO  io.dingodb.hatest.TestHA - raft节点:172.20.3.13:20101
+2024-04-03 10:20:07.652 [TestNG-PoolService-3] INFO  io.dingodb.hatest.TestHA - raft节点172.20.3.15:20101->[5, 5, 5, 5, 5]
+2024-04-03 10:20:07.652 [TestNG-PoolService-3] INFO  io.dingodb.hatest.TestHA - 标量索引--SQLHA_004_MIXINDEX001.BIRTHDAY_INDEX--[[5, 5, 5, 5, 5], [5, 5, 5, 5, 5], [5, 5, 5, 5, 5]]
+2024-04-03 10:20:07.652 [TestNG-PoolService-3] INFO  io.dingodb.hatest.TestHA - raft节点:172.20.3.13:20101
+2024-04-03 10:20:07.726 [TestNG-PoolService-3] INFO  io.dingodb.hatest.TestHA - raft节点172.20.3.13:20101->[5]
+2024-04-03 10:20:07.726 [TestNG-PoolService-3] INFO  io.dingodb.hatest.TestHA - raft节点:172.20.3.219:20101
+2024-04-03 10:20:07.805 [TestNG-PoolService-3] INFO  io.dingodb.hatest.TestHA - raft节点172.20.3.219:20101->[5]
+2024-04-03 10:20:07.805 [TestNG-PoolService-3] INFO  io.dingodb.hatest.TestHA - raft节点:172.20.3.15:20101
+2024-04-03 10:20:07.883 [TestNG-PoolService-3] INFO  io.dingodb.hatest.TestHA - raft节点172.20.3.15:20101->[5]
+2024-04-03 10:20:07.883 [TestNG-PoolService-3] INFO  io.dingodb.hatest.TestHA - 标量索引--SQLHA_004_MIXINDEX001.AGE_INDEX--[[5], [5], [5]]
+2024-04-03 10:20:07.883 [TestNG-PoolService-3] INFO  io.dingodb.hatest.TestHA - raft节点:172.20.3.13:20101
+2024-04-03 10:20:07.940 [TestNG-PoolService-0] INFO  io.dingodb.hatest.TestHA - raft节点172.20.3.13:20101->[5, 5, 5, 5]
+2024-04-03 10:20:07.941 [TestNG-PoolService-0] INFO  io.dingodb.hatest.TestHA - raft节点:172.20.3.219:20101
+2024-04-03 10:20:07.971 [TestNG-PoolService-2] INFO  io.dingodb.hatest.TestHA - raft节点172.20.3.13:20101->[5, 5, 5, 5, 5]
+2024-04-03 10:20:07.972 [TestNG-PoolService-2] INFO  io.dingodb.hatest.TestHA - raft节点:172.20.3.219:20101
+2024-04-03 10:20:08.064 [TestNG-PoolService-1] INFO  io.dingodb.hatest.TestHA - raft节点172.20.3.219:20101->[5, 5, 5, 5, 5]
+2024-04-03 10:20:08.064 [TestNG-PoolService-1] INFO  io.dingodb.hatest.TestHA - raft节点:172.20.3.15:20101
+2024-04-03 10:20:08.308 [TestNG-PoolService-3] INFO  io.dingodb.hatest.TestHA - raft节点172.20.3.13:20101->[5, 5, 5, 5]
+2024-04-03 10:20:08.317 [TestNG-PoolService-0] INFO  io.dingodb.hatest.TestHA - raft节点172.20.3.219:20101->[5, 5, 5, 5]
+2024-04-03 10:20:08.326 [TestNG-PoolService-0] INFO  io.dingodb.hatest.TestHA - raft节点:172.20.3.15:20101
+2024-04-03 10:20:08.326 [TestNG-PoolService-3] INFO  io.dingodb.hatest.TestHA - raft节点:172.20.3.219:20101
+2024-04-03 10:20:08.434 [TestNG-PoolService-2] INFO  io.dingodb.hatest.TestHA - raft节点172.20.3.219:20101->[5, 5, 5, 5, 5]
+2024-04-03 10:20:08.434 [TestNG-PoolService-2] INFO  io.dingodb.hatest.TestHA - raft节点:172.20.3.15:20101
+2024-04-03 10:20:08.504 [TestNG-PoolService-1] INFO  io.dingodb.hatest.TestHA - raft节点172.20.3.15:20101->[5, 5, 5, 5, 5]
+2024-04-03 10:20:08.504 [TestNG-PoolService-1] INFO  io.dingodb.hatest.TestHA - 标量索引--SQLHA_002_MIXINDEX001.BIRTHDAY_INDEX--[[5, 5, 5, 5, 5], [5, 5, 5, 5, 5], [5, 5, 5, 5, 5]]
+2024-04-03 10:20:08.504 [TestNG-PoolService-1] INFO  io.dingodb.hatest.TestHA - raft节点:172.20.3.13:20101
+2024-04-03 10:20:08.587 [TestNG-PoolService-1] INFO  io.dingodb.hatest.TestHA - raft节点172.20.3.13:20101->[5]
+2024-04-03 10:20:08.587 [TestNG-PoolService-1] INFO  io.dingodb.hatest.TestHA - raft节点:172.20.3.219:20101
+2024-04-03 10:20:08.658 [TestNG-PoolService-0] INFO  io.dingodb.hatest.TestHA - raft节点172.20.3.15:20101->[5, 5, 5, 5]
+2024-04-03 10:20:08.658 [TestNG-PoolService-0] INFO  io.dingodb.hatest.TestHA - 标量索引--SQLHA_001_MIXINDEX001.NAME_INDEX--[[5, 5, 5, 5], [5, 5, 5, 5], [5, 5, 5, 5]]
+2024-04-03 10:20:08.658 [TestNG-PoolService-0] INFO  io.dingodb.hatest.TestHA - raft节点:172.20.3.13:20101
+2024-04-03 10:20:08.668 [TestNG-PoolService-1] INFO  io.dingodb.hatest.TestHA - raft节点172.20.3.219:20101->[5]
+2024-04-03 10:20:08.669 [TestNG-PoolService-1] INFO  io.dingodb.hatest.TestHA - raft节点:172.20.3.15:20101
+2024-04-03 10:20:08.684 [TestNG-PoolService-3] INFO  io.dingodb.hatest.TestHA - raft节点172.20.3.219:20101->[5, 5, 5, 5]
+2024-04-03 10:20:08.684 [TestNG-PoolService-3] INFO  io.dingodb.hatest.TestHA - raft节点:172.20.3.15:20101
+2024-04-03 10:20:08.751 [TestNG-PoolService-0] INFO  io.dingodb.hatest.TestHA - raft节点172.20.3.13:20101->[5]
+2024-04-03 10:20:08.751 [TestNG-PoolService-0] INFO  io.dingodb.hatest.TestHA - raft节点:172.20.3.219:20101
+2024-04-03 10:20:08.755 [TestNG-PoolService-1] INFO  io.dingodb.hatest.TestHA - raft节点172.20.3.15:20101->[5]
+2024-04-03 10:20:08.756 [TestNG-PoolService-1] INFO  io.dingodb.hatest.TestHA - 标量索引--SQLHA_002_MIXINDEX001.AGE_INDEX--[[5], [5], [5]]
+2024-04-03 10:20:08.756 [TestNG-PoolService-1] INFO  io.dingodb.hatest.TestHA - ================================================
+2024-04-03 10:20:08.756 [TestNG-PoolService-1] INFO  io.dingodb.hatest.TestHA - 验证向量索引的raft已提交日志一致
+2024-04-03 10:20:08.830 [TestNG-PoolService-0] INFO  io.dingodb.hatest.TestHA - raft节点172.20.3.219:20101->[5]
+2024-04-03 10:20:08.831 [TestNG-PoolService-0] INFO  io.dingodb.hatest.TestHA - raft节点:172.20.3.15:20101
+2024-04-03 10:20:08.860 [TestNG-PoolService-2] INFO  io.dingodb.hatest.TestHA - raft节点172.20.3.15:20101->[5, 5, 5, 5, 5]
+2024-04-03 10:20:08.860 [TestNG-PoolService-2] INFO  io.dingodb.hatest.TestHA - 标量索引--SQLHA_003_MIXINDEX001.BIRTHDAY_INDEX--[[5, 5, 5, 5, 5], [5, 5, 5, 5, 5], [5, 5, 5, 5, 5]]
+2024-04-03 10:20:08.860 [TestNG-PoolService-2] INFO  io.dingodb.hatest.TestHA - raft节点:172.20.3.13:20101
+2024-04-03 10:20:08.904 [TestNG-PoolService-0] INFO  io.dingodb.hatest.TestHA - raft节点172.20.3.15:20101->[5]
+2024-04-03 10:20:08.904 [TestNG-PoolService-0] INFO  io.dingodb.hatest.TestHA - 标量索引--SQLHA_001_MIXINDEX001.AGE_INDEX--[[5], [5], [5]]
+2024-04-03 10:20:08.904 [TestNG-PoolService-0] INFO  io.dingodb.hatest.TestHA - ================================================
+2024-04-03 10:20:08.904 [TestNG-PoolService-0] INFO  io.dingodb.hatest.TestHA - 验证向量索引的raft已提交日志一致
+2024-04-03 10:20:08.930 [TestNG-PoolService-2] INFO  io.dingodb.hatest.TestHA - raft节点172.20.3.13:20101->[5]
+2024-04-03 10:20:08.931 [TestNG-PoolService-2] INFO  io.dingodb.hatest.TestHA - raft节点:172.20.3.219:20101
+2024-04-03 10:20:08.984 [TestNG-PoolService-3] INFO  io.dingodb.hatest.TestHA - raft节点172.20.3.15:20101->[5, 5, 5, 5]
+2024-04-03 10:20:08.984 [TestNG-PoolService-3] INFO  io.dingodb.hatest.TestHA - 标量索引--SQLHA_004_MIXINDEX001.NAME_INDEX--[[5, 5, 5, 5], [5, 5, 5, 5], [5, 5, 5, 5]]
+2024-04-03 10:20:08.984 [TestNG-PoolService-3] INFO  io.dingodb.hatest.TestHA - ================================================
+2024-04-03 10:20:08.984 [TestNG-PoolService-3] INFO  io.dingodb.hatest.TestHA - 验证向量索引的raft已提交日志一致
+2024-04-03 10:20:08.998 [TestNG-PoolService-2] INFO  io.dingodb.hatest.TestHA - raft节点172.20.3.219:20101->[5]
+2024-04-03 10:20:08.998 [TestNG-PoolService-2] INFO  io.dingodb.hatest.TestHA - raft节点:172.20.3.15:20101
+2024-04-03 10:20:09.052 [TestNG-PoolService-2] INFO  io.dingodb.hatest.TestHA - raft节点172.20.3.15:20101->[5]
+2024-04-03 10:20:09.052 [TestNG-PoolService-2] INFO  io.dingodb.hatest.TestHA - 标量索引--SQLHA_003_MIXINDEX001.AGE_INDEX--[[5], [5], [5]]
+2024-04-03 10:20:09.052 [TestNG-PoolService-2] INFO  io.dingodb.hatest.TestHA - ================================================
+2024-04-03 10:20:09.052 [TestNG-PoolService-2] INFO  io.dingodb.hatest.TestHA - 验证向量索引的raft已提交日志一致
+2024-04-03 10:20:12.100 [TestNG-PoolService-2] INFO  io.dingodb.hatest.TestHA - 向量索引partition和region: {SQLHA_003_MIXINDEX001.FEATURE_INDEX=[60450\[80340\], 60451\[80342\], 60452\[80344\], 60453\[80346\], 60454\[80347\]]}
+2024-04-03 10:20:12.100 [TestNG-PoolService-2] INFO  io.dingodb.hatest.TestHA - raft节点:172.20.3.13:21101
+2024-04-03 10:20:12.251 [TestNG-PoolService-2] INFO  io.dingodb.hatest.TestHA - raft节点172.20.3.13:21101->[5, 5, 3, 5, 5]
+2024-04-03 10:20:12.251 [TestNG-PoolService-2] INFO  io.dingodb.hatest.TestHA - raft节点:172.20.3.219:21101
+2024-04-03 10:20:12.417 [TestNG-PoolService-2] INFO  io.dingodb.hatest.TestHA - raft节点172.20.3.219:21101->[5, 5, 3, 5, 5]
+2024-04-03 10:20:12.417 [TestNG-PoolService-2] INFO  io.dingodb.hatest.TestHA - raft节点:172.20.3.15:21101
+2024-04-03 10:20:12.724 [TestNG-PoolService-2] INFO  io.dingodb.hatest.TestHA - raft节点172.20.3.15:21101->[5, 5, 3, 5, 5]
+2024-04-03 10:20:12.724 [TestNG-PoolService-2] INFO  io.dingodb.hatest.TestHA - 向量索引--SQLHA_003_MIXINDEX001.FEATURE_INDEX--[[5, 5, 3, 5, 5], [5, 5, 3, 5, 5], [5, 5, 3, 5, 5]]
+2024-04-03 10:20:12.724 [TestNG-PoolService-2] INFO  io.dingodb.hatest.TestHA - 表和索引raft验证完毕！
+2024-04-03 10:20:12.828 [TestNG-PoolService-1] INFO  io.dingodb.hatest.TestHA - 向量索引partition和region: {SQLHA_002_MIXINDEX001.FEATURE_INDEX=[60402\[80329\], 60403\[80332\], 60404\[80334\], 60405\[80336\], 60406\[80338\]]}
+2024-04-03 10:20:12.828 [TestNG-PoolService-1] INFO  io.dingodb.hatest.TestHA - raft节点:172.20.3.13:21101
+2024-04-03 10:20:12.958 [TestNG-PoolService-0] INFO  io.dingodb.hatest.TestHA - 向量索引partition和region: {SQLHA_001_MIXINDEX001.FEATURE_INDEX=[60427\[80325\], 60428\[80327\], 60429\[80331\], 60430\[80333\], 60431\[80335\]]}
+2024-04-03 10:20:12.959 [TestNG-PoolService-0] INFO  io.dingodb.hatest.TestHA - raft节点:172.20.3.13:21101
+2024-04-03 10:20:13.037 [TestNG-PoolService-3] INFO  io.dingodb.hatest.TestHA - 向量索引partition和region: {SQLHA_004_MIXINDEX001.FEATURE_INDEX=[60421\[80337\], 60422\[80339\], 60423\[80341\], 60424\[80343\], 60425\[80345\]]}
+2024-04-03 10:20:13.038 [TestNG-PoolService-3] INFO  io.dingodb.hatest.TestHA - raft节点:172.20.3.13:21101
+2024-04-03 10:20:13.062 [TestNG-PoolService-1] INFO  io.dingodb.hatest.TestHA - raft节点172.20.3.13:21101->[5, 5, 5, 5, 5]
+2024-04-03 10:20:13.062 [TestNG-PoolService-1] INFO  io.dingodb.hatest.TestHA - raft节点:172.20.3.219:21101
+2024-04-03 10:20:13.260 [TestNG-PoolService-0] INFO  io.dingodb.hatest.TestHA - raft节点172.20.3.13:21101->[5, 5, 5, 5, 5]
+2024-04-03 10:20:13.260 [TestNG-PoolService-0] INFO  io.dingodb.hatest.TestHA - raft节点:172.20.3.219:21101
+2024-04-03 10:20:13.357 [TestNG-PoolService-3] INFO  io.dingodb.hatest.TestHA - raft节点172.20.3.13:21101->[5, 5, 5, 5, 5]
+2024-04-03 10:20:13.357 [TestNG-PoolService-3] INFO  io.dingodb.hatest.TestHA - raft节点:172.20.3.219:21101
+2024-04-03 10:20:13.390 [TestNG-PoolService-1] INFO  io.dingodb.hatest.TestHA - raft节点172.20.3.219:21101->[5, 5, 5, 5, 5]
+2024-04-03 10:20:13.390 [TestNG-PoolService-1] INFO  io.dingodb.hatest.TestHA - raft节点:172.20.3.15:21101
+2024-04-03 10:20:13.614 [TestNG-PoolService-0] INFO  io.dingodb.hatest.TestHA - raft节点172.20.3.219:21101->[5, 5, 5, 5, 5]
+2024-04-03 10:20:13.614 [TestNG-PoolService-0] INFO  io.dingodb.hatest.TestHA - raft节点:172.20.3.15:21101
+2024-04-03 10:20:13.719 [TestNG-PoolService-3] INFO  io.dingodb.hatest.TestHA - raft节点172.20.3.219:21101->[5, 5, 5, 5, 5]
+2024-04-03 10:20:13.719 [TestNG-PoolService-3] INFO  io.dingodb.hatest.TestHA - raft节点:172.20.3.15:21101
+2024-04-03 10:20:13.763 [TestNG-PoolService-1] INFO  io.dingodb.hatest.TestHA - raft节点172.20.3.15:21101->[5, 5, 5, 5, 5]
+2024-04-03 10:20:13.764 [TestNG-PoolService-1] INFO  io.dingodb.hatest.TestHA - 向量索引--SQLHA_002_MIXINDEX001.FEATURE_INDEX--[[5, 5, 5, 5, 5], [5, 5, 5, 5, 5], [5, 5, 5, 5, 5]]
+2024-04-03 10:20:13.764 [TestNG-PoolService-1] INFO  io.dingodb.hatest.TestHA - 表和索引raft验证完毕！
+2024-04-03 10:20:13.964 [TestNG-PoolService-0] INFO  io.dingodb.hatest.TestHA - raft节点172.20.3.15:21101->[5, 5, 5, 5, 5]
+2024-04-03 10:20:13.964 [TestNG-PoolService-0] INFO  io.dingodb.hatest.TestHA - 向量索引--SQLHA_001_MIXINDEX001.FEATURE_INDEX--[[5, 5, 5, 5, 5], [5, 5, 5, 5, 5], [5, 5, 5, 5, 5]]
+2024-04-03 10:20:13.964 [TestNG-PoolService-0] INFO  io.dingodb.hatest.TestHA - 表和索引raft验证完毕！
+2024-04-03 10:20:13.965 [TestNG-PoolService-0] INFO  io.dingodb.hatest.TestHA - +++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+2024-04-03 10:20:13.965 [TestNG-PoolService-0] INFO  io.dingodb.hatest.TestHA - 验证DML操作的raft一致性
+2024-04-03 10:20:14.025 [TestNG-PoolService-3] INFO  io.dingodb.hatest.TestHA - raft节点172.20.3.15:21101->[5, 5, 5, 5, 5]
+2024-04-03 10:20:14.025 [TestNG-PoolService-3] INFO  io.dingodb.hatest.TestHA - 向量索引--SQLHA_004_MIXINDEX001.FEATURE_INDEX--[[5, 5, 5, 5, 5], [5, 5, 5, 5, 5], [5, 5, 5, 5, 5]]
+2024-04-03 10:20:14.025 [TestNG-PoolService-3] INFO  io.dingodb.hatest.TestHA - 表和索引raft验证完毕！
+2024-04-03 10:20:15.872 [TestNG-PoolService-0] INFO  io.dingodb.hatest.TestHA - 验证表的raft已提交日志一致。
+2024-04-03 10:20:18.926 [TestNG-PoolService-0] INFO  io.dingodb.hatest.TestHA - 表partition和region: [60370\[80276\], 60371\[80277\], 60372\[80278\]]
+2024-04-03 10:20:18.926 [TestNG-PoolService-0] INFO  io.dingodb.hatest.TestHA - raft节点:172.20.3.13:20101
+2024-04-03 10:20:19.010 [TestNG-PoolService-0] INFO  io.dingodb.hatest.TestHA - raft节点172.20.3.13:20101->[14, 7, 15]
+2024-04-03 10:20:19.011 [TestNG-PoolService-0] INFO  io.dingodb.hatest.TestHA - raft节点:172.20.3.219:20101
+2024-04-03 10:20:19.129 [TestNG-PoolService-0] INFO  io.dingodb.hatest.TestHA - raft节点172.20.3.219:20101->[14, 7, 15]
+2024-04-03 10:20:19.129 [TestNG-PoolService-0] INFO  io.dingodb.hatest.TestHA - raft节点:172.20.3.15:20101
+2024-04-03 10:20:19.237 [TestNG-PoolService-0] INFO  io.dingodb.hatest.TestHA - raft节点172.20.3.15:20101->[14, 7, 15]
+2024-04-03 10:20:19.237 [TestNG-PoolService-0] INFO  io.dingodb.hatest.TestHA - 每个节点的table_last_commit_index: [[14, 7, 15], [14, 7, 15], [14, 7, 15]]
+2024-04-03 10:20:19.237 [TestNG-PoolService-0] INFO  io.dingodb.hatest.TestHA - ================================================
+2024-04-03 10:20:19.237 [TestNG-PoolService-0] INFO  io.dingodb.hatest.TestHA - 验证标量索引的raft已提交日志一致
+2024-04-03 10:20:19.427 [TestNG-PoolService-2] INFO  io.dingodb.hatest.TestHA - +++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+2024-04-03 10:20:19.427 [TestNG-PoolService-1] INFO  io.dingodb.hatest.TestHA - +++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+2024-04-03 10:20:19.427 [TestNG-PoolService-2] INFO  io.dingodb.hatest.TestHA - 验证停止store后DML操作的raft一致性
+2024-04-03 10:20:19.427 [TestNG-PoolService-1] INFO  io.dingodb.hatest.TestHA - 验证停止coordinator后DML操作的raft一致性
+2024-04-03 10:20:19.453 [TestNG-PoolService-3] INFO  io.dingodb.hatest.TestHA - +++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+2024-04-03 10:20:19.453 [TestNG-PoolService-3] INFO  io.dingodb.hatest.TestHA - 验证停止index后DML操作的raft一致性
+2024-04-03 10:20:22.274 [TestNG-PoolService-0] INFO  io.dingodb.hatest.TestHA - 标量索引partition和region: {SQLHA_001_MIXINDEX001.BIRTHDAY_INDEX=[60390\[80305\], 60391\[80307\], 60392\[80310\], 60393\[80314\], 60394\[80315\]], SQLHA_001_MIXINDEX001.NAME_INDEX=[60385\[80290\], 60386\[80293\], 60387\[80294\], 60388\[80296\]], SQLHA_001_MIXINDEX001.AGE_INDEX=[60374\[80286\]]}
+2024-04-03 10:20:22.274 [TestNG-PoolService-0] INFO  io.dingodb.hatest.TestHA - raft节点:172.20.3.13:20101
+2024-04-03 10:20:22.375 [TestNG-PoolService-0] INFO  io.dingodb.hatest.TestHA - raft节点172.20.3.13:20101->[11, 11, 9, 11, 11]
+2024-04-03 10:20:22.375 [TestNG-PoolService-0] INFO  io.dingodb.hatest.TestHA - raft节点:172.20.3.219:20101
+2024-04-03 10:20:22.476 [TestNG-PoolService-0] INFO  io.dingodb.hatest.TestHA - raft节点172.20.3.219:20101->[11, 11, 9, 11, 11]
+2024-04-03 10:20:22.476 [TestNG-PoolService-0] INFO  io.dingodb.hatest.TestHA - raft节点:172.20.3.15:20101
+2024-04-03 10:20:42.330 [TestNG-PoolService-1] INFO  io.dingodb.hatest.TestHA - 验证表的raft已提交日志一致。
+2024-04-03 10:20:45.372 [TestNG-PoolService-1] INFO  io.dingodb.hatest.TestHA - 表partition和region: [60364\[80279\], 60365\[80282\], 60366\[80284\]]
+2024-04-03 10:20:45.372 [TestNG-PoolService-1] INFO  io.dingodb.hatest.TestHA - raft节点:172.20.3.13:20101
+2024-04-03 10:20:45.460 [TestNG-PoolService-1] INFO  io.dingodb.hatest.TestHA - raft节点172.20.3.13:20101->[18, 7, 18]
+2024-04-03 10:20:45.460 [TestNG-PoolService-1] INFO  io.dingodb.hatest.TestHA - raft节点:172.20.3.219:20101
+2024-04-03 10:20:45.530 [TestNG-PoolService-1] INFO  io.dingodb.hatest.TestHA - raft节点172.20.3.219:20101->[18, 7, 18]
+2024-04-03 10:20:45.531 [TestNG-PoolService-1] INFO  io.dingodb.hatest.TestHA - raft节点:172.20.3.15:20101
+2024-04-03 10:20:47.564 [TestNG-PoolService-1] INFO  io.dingodb.hatest.TestHA - coordinator的停止场景的表操作的raft一致性验证完毕,删除脚本
+2024-04-03 10:21:00.630 [TestNG-PoolService-3] INFO  io.dingodb.hatest.TestHA - 验证表的raft已提交日志一致。
+2024-04-03 10:21:01.584 [TestNG-PoolService-2] INFO  io.dingodb.hatest.TestHA - 验证表的raft已提交日志一致。
+2024-04-03 10:21:03.676 [TestNG-PoolService-3] INFO  io.dingodb.hatest.TestHA - 表partition和region: [60381\[80281\], 60382\[80285\], 60383\[80288\]]
+2024-04-03 10:21:03.676 [TestNG-PoolService-3] INFO  io.dingodb.hatest.TestHA - raft节点:172.20.3.13:20101
+2024-04-03 10:21:03.738 [TestNG-PoolService-3] INFO  io.dingodb.hatest.TestHA - raft节点172.20.3.13:20101->[38, 7, 17]
+2024-04-03 10:21:03.738 [TestNG-PoolService-3] INFO  io.dingodb.hatest.TestHA - raft节点:172.20.3.219:20101
+2024-04-03 10:21:03.800 [TestNG-PoolService-3] INFO  io.dingodb.hatest.TestHA - raft节点172.20.3.219:20101->[38, 7, 17]
+2024-04-03 10:21:03.800 [TestNG-PoolService-3] INFO  io.dingodb.hatest.TestHA - raft节点:172.20.3.15:20101
+2024-04-03 10:21:04.617 [TestNG-PoolService-2] INFO  io.dingodb.hatest.TestHA - 表partition和region: [60433\[80280\], 60434\[80283\], 60435\[80287\]]
+2024-04-03 10:21:04.617 [TestNG-PoolService-2] INFO  io.dingodb.hatest.TestHA - raft节点:172.20.3.13:20101
+2024-04-03 10:21:04.678 [TestNG-PoolService-2] INFO  io.dingodb.hatest.TestHA - raft节点172.20.3.13:20101->[36, 8, 18]
+2024-04-03 10:21:04.678 [TestNG-PoolService-2] INFO  io.dingodb.hatest.TestHA - raft节点:172.20.3.219:20101
+2024-04-03 10:21:04.746 [TestNG-PoolService-2] INFO  io.dingodb.hatest.TestHA - raft节点172.20.3.219:20101->[36, 8, 18]
+2024-04-03 10:21:04.747 [TestNG-PoolService-2] INFO  io.dingodb.hatest.TestHA - 每个节点的table_last_commit_index: [[36, 8, 18], [36, 8, 18]]
+2024-04-03 10:21:04.747 [TestNG-PoolService-2] INFO  io.dingodb.hatest.TestHA - ================================================
+2024-04-03 10:21:04.747 [TestNG-PoolService-2] INFO  io.dingodb.hatest.TestHA - 验证标量索引的raft已提交日志一致
+2024-04-03 10:21:05.872 [TestNG-PoolService-3] INFO  io.dingodb.hatest.TestHA - index的停止场景的表操作的raft一致性验证完毕,删除脚本
+2024-04-03 10:21:07.788 [TestNG-PoolService-2] INFO  io.dingodb.hatest.TestHA - 标量索引partition和region: {SQLHA_003_MIXINDEX001.NAME_INDEX=[60439\[80303\], 60440\[80306\], 60441\[80309\], 60442\[80312\]], SQLHA_003_MIXINDEX001.BIRTHDAY_INDEX=[60444\[80321\], 60445\[80323\], 60446\[80326\], 60447\[80328\], 60448\[80330\]], SQLHA_003_MIXINDEX001.AGE_INDEX=[60437\[80292\]]}
+2024-04-03 10:21:07.788 [TestNG-PoolService-2] INFO  io.dingodb.hatest.TestHA - raft节点:172.20.3.13:20101
+2024-04-03 10:21:07.870 [TestNG-PoolService-2] INFO  io.dingodb.hatest.TestHA - raft节点172.20.3.13:20101->[9, 11, 14, 10]
+2024-04-03 10:21:07.870 [TestNG-PoolService-2] INFO  io.dingodb.hatest.TestHA - raft节点:172.20.3.219:20101
+2024-04-03 10:21:07.950 [TestNG-PoolService-2] INFO  io.dingodb.hatest.TestHA - raft节点172.20.3.219:20101->[9, 11, 14, 10]
+2024-04-03 10:21:07.950 [TestNG-PoolService-2] INFO  io.dingodb.hatest.TestHA - 标量索引--SQLHA_003_MIXINDEX001.NAME_INDEX--[[9, 11, 14, 10], [9, 11, 14, 10]]
+2024-04-03 10:21:07.950 [TestNG-PoolService-2] INFO  io.dingodb.hatest.TestHA - raft节点:172.20.3.13:20101
+2024-04-03 10:21:08.078 [TestNG-PoolService-2] INFO  io.dingodb.hatest.TestHA - raft节点172.20.3.13:20101->[13, 9, 11, 11, 11]
+2024-04-03 10:21:08.078 [TestNG-PoolService-2] INFO  io.dingodb.hatest.TestHA - raft节点:172.20.3.219:20101
+2024-04-03 10:21:08.181 [TestNG-PoolService-2] INFO  io.dingodb.hatest.TestHA - raft节点172.20.3.219:20101->[13, 9, 11, 11, 11]
+2024-04-03 10:21:08.181 [TestNG-PoolService-2] INFO  io.dingodb.hatest.TestHA - 标量索引--SQLHA_003_MIXINDEX001.BIRTHDAY_INDEX--[[13, 9, 11, 11, 11], [13, 9, 11, 11, 11]]
+2024-04-03 10:21:08.181 [TestNG-PoolService-2] INFO  io.dingodb.hatest.TestHA - raft节点:172.20.3.13:20101
+2024-04-03 10:21:08.201 [TestNG-PoolService-2] INFO  io.dingodb.hatest.TestHA - raft节点172.20.3.13:20101->[14]
+2024-04-03 10:21:08.201 [TestNG-PoolService-2] INFO  io.dingodb.hatest.TestHA - raft节点:172.20.3.219:20101
+2024-04-03 10:21:08.221 [TestNG-PoolService-2] INFO  io.dingodb.hatest.TestHA - raft节点172.20.3.219:20101->[14]
+2024-04-03 10:21:08.221 [TestNG-PoolService-2] INFO  io.dingodb.hatest.TestHA - 标量索引--SQLHA_003_MIXINDEX001.AGE_INDEX--[[14], [14]]
+2024-04-03 10:21:08.221 [TestNG-PoolService-2] INFO  io.dingodb.hatest.TestHA - ================================================
+2024-04-03 10:21:08.221 [TestNG-PoolService-2] INFO  io.dingodb.hatest.TestHA - 验证向量索引的raft已提交日志一致
+2024-04-03 10:21:11.247 [TestNG-PoolService-2] INFO  io.dingodb.hatest.TestHA - 向量索引partition和region: {SQLHA_003_MIXINDEX001.FEATURE_INDEX=[60450\[80340\], 60451\[80342\], 60452\[80344\], 60453\[80346\], 60454\[80347\]]}
+2024-04-03 10:21:11.247 [TestNG-PoolService-2] INFO  io.dingodb.hatest.TestHA - raft节点:172.20.3.13:21101
+2024-04-03 10:21:11.354 [TestNG-PoolService-2] INFO  io.dingodb.hatest.TestHA - raft节点172.20.3.13:21101->[11, 11, 8, 12, 14]
+2024-04-03 10:21:11.354 [TestNG-PoolService-2] INFO  io.dingodb.hatest.TestHA - raft节点:172.20.3.219:21101
+2024-04-03 10:21:11.474 [TestNG-PoolService-2] INFO  io.dingodb.hatest.TestHA - raft节点172.20.3.219:21101->[11, 11, 8, 12, 14]
+2024-04-03 10:21:11.475 [TestNG-PoolService-2] INFO  io.dingodb.hatest.TestHA - raft节点:172.20.3.15:21101
+2024-04-03 10:21:13.541 [TestNG-PoolService-2] INFO  io.dingodb.hatest.TestHA - store的停止场景的表操作的raft一致性验证完毕,删除脚本
+2024-04-03 10:21:13.702 [main] INFO  io.dingodb.hatest.TestHA - Create table set: [sqlha_003_mixindex001, sqlha_002_mixindex001, sqlha_004_mixindex001, sqlha_001_mixindex001]
+2024-04-03 10:21:13.976 [<172.20.3.13:8765/1/client>-28] WARN  i.d.driver.client.DingoDriverClient - Connection channel closed, close connection.
+2024-04-03 10:21:13.976 [<172.20.3.13:8765/19/client>-29] WARN  i.d.driver.client.DingoDriverClient - Connection channel closed, close connection.
+2024-04-03 10:21:13.976 [<172.20.3.13:8765/7/client>-16] WARN  i.d.driver.client.DingoDriverClient - Connection channel closed, close connection.
+2024-04-03 10:21:13.976 [<172.20.3.13:8765/37/client>-26] WARN  i.d.driver.client.DingoDriverClient - Connection channel closed, close connection.
+2024-04-03 10:21:13.976 [<172.20.3.13:8765/25/client>-49] WARN  i.d.driver.client.DingoDriverClient - Connection channel closed, close connection.
+2024-04-03 10:21:13.976 [<172.20.3.13:8765/43/client>-50] WARN  i.d.driver.client.DingoDriverClient - Connection channel closed, close connection.
+2024-04-03 10:21:13.977 [<172.20.3.13:8765/13/client>-51] WARN  i.d.driver.client.DingoDriverClient - Connection channel closed, close connection.
+2024-04-03 10:21:13.977 [<172.20.3.13:8765/31/client>-52] WARN  i.d.driver.client.DingoDriverClient - Connection channel closed, close connection.
+2024-04-03 10:21:13.984 [on-invoke-complete-63] ERROR io.dingodb.net.netty.Channel - Send close message error.
+java.lang.RuntimeException: Connection closed.
+	at io.dingodb.net.netty.Connection.sendAsync(Connection.java:181)
+	at io.dingodb.net.netty.Channel.close(Channel.java:205)
+	at io.dingodb.net.netty.api.RandomChannelProxy.lambda$invoke$0(RandomChannelProxy.java:73)
+	at java.util.concurrent.CompletableFuture.uniWhenComplete(CompletableFuture.java:760)
+	at java.util.concurrent.CompletableFuture$UniWhenComplete.tryFire(CompletableFuture.java:736)
+	at java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:442)
+	at io.dingodb.common.concurrent.Executors.run(Executors.java:213)
+	at io.dingodb.common.concurrent.Executors.lambda$wrap$10(Executors.java:168)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+2024-04-03 10:21:13.984 [on-invoke-complete-55] ERROR io.dingodb.net.netty.Channel - Send close message error.
+java.lang.RuntimeException: Connection closed.
+	at io.dingodb.net.netty.Connection.sendAsync(Connection.java:181)
+	at io.dingodb.net.netty.Channel.close(Channel.java:205)
+	at io.dingodb.net.netty.api.RandomChannelProxy.lambda$invoke$0(RandomChannelProxy.java:73)
+	at java.util.concurrent.CompletableFuture.uniWhenComplete(CompletableFuture.java:760)
+	at java.util.concurrent.CompletableFuture$UniWhenComplete.tryFire(CompletableFuture.java:736)
+	at java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:442)
+	at io.dingodb.common.concurrent.Executors.run(Executors.java:213)
+	at io.dingodb.common.concurrent.Executors.lambda$wrap$10(Executors.java:168)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+2024-04-03 10:21:13.984 [<172.20.3.13:8765/43/client>-50] ERROR i.d.net.netty.api.RandomChannelProxy - Invoke proxy method [public abstract org.apache.calcite.avatica.remote.Service$CloseConnectionResponse io.dingodb.driver.api.DriverProxyApi.apply(org.apache.calcite.avatica.remote.Service$CloseConnectionRequest)] on [Location(host=172.20.3.13, port=8765)/237] error.
+java.util.concurrent.ExecutionException: java.lang.reflect.InvocationTargetException: Invoke on [172.20.3.13:8765] failed.
+	at java.util.concurrent.CompletableFuture.reportGet(CompletableFuture.java:357)
+	at java.util.concurrent.CompletableFuture.get(CompletableFuture.java:1915)
+	at io.dingodb.net.netty.api.ApiProxy.invoke(ApiProxy.java:96)
+	at io.dingodb.net.netty.api.RandomChannelProxy.invoke(RandomChannelProxy.java:85)
+	at com.sun.proxy.$Proxy12.apply(Unknown Source)
+	at io.dingodb.driver.ServiceInvocationHandler.apply(ServiceInvocationHandler.java:45)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at io.dingodb.driver.ServiceInvocationHandler.invoke(ServiceInvocationHandler.java:57)
+	at com.sun.proxy.$Proxy13.apply(Unknown Source)
+	at io.dingodb.driver.DingoServiceImpl.apply(DingoServiceImpl.java:34)
+	at org.apache.calcite.avatica.remote.RemoteMeta$4.call(RemoteMeta.java:125)
+	at org.apache.calcite.avatica.remote.RemoteMeta$4.call(RemoteMeta.java:122)
+	at org.apache.calcite.avatica.AvaticaConnection.invokeWithRetries(AvaticaConnection.java:795)
+	at org.apache.calcite.avatica.remote.RemoteMeta.closeConnection(RemoteMeta.java:121)
+	at org.apache.calcite.avatica.remote.DingoRemoteMeta.closeConnection(DingoRemoteMeta.java:26)
+	at org.apache.calcite.avatica.AvaticaConnection.close(AvaticaConnection.java:218)
+	at io.dingodb.driver.client.DingoDriverClient.lambda$createMeta$1(DingoDriverClient.java:223)
+	at io.dingodb.common.util.NoBreakFunctions$WrappedConsumer.accept(NoBreakFunctions.java:275)
+	at io.dingodb.net.netty.Channel.lambda$shutdown$3(Channel.java:99)
+	at io.dingodb.common.concurrent.LinkedRunner$RunnerNode.run(LinkedRunner.java:77)
+	at io.dingodb.common.concurrent.LinkedRunner.lambda$submit$2(LinkedRunner.java:120)
+	at io.dingodb.common.concurrent.Executors.run(Executors.java:213)
+	at io.dingodb.common.concurrent.Executors.lambda$wrap$10(Executors.java:168)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.lang.reflect.InvocationTargetException: Invoke on [172.20.3.13:8765] failed.
+	at io.dingodb.net.netty.api.ApiProxy.completeExceptionally(ApiProxy.java:129)
+	at io.dingodb.net.netty.api.ApiProxy.invoke(ApiProxy.java:89)
+	... 26 common frames omitted
+Caused by: java.lang.RuntimeException: Connection closed.
+	at io.dingodb.net.netty.Connection.send(Connection.java:174)
+	at io.dingodb.net.netty.Channel.send(Channel.java:212)
+	at io.dingodb.net.netty.api.RandomChannelProxy.invoke(RandomChannelProxy.java:78)
+	at io.dingodb.net.netty.api.ApiProxy.invoke(ApiProxy.java:80)
+	... 26 common frames omitted
+2024-04-03 10:21:13.984 [on-invoke-complete-57] ERROR io.dingodb.net.netty.Channel - Send close message error.
+java.lang.RuntimeException: Connection closed.
+	at io.dingodb.net.netty.Connection.sendAsync(Connection.java:181)
+	at io.dingodb.net.netty.Channel.close(Channel.java:205)
+	at io.dingodb.net.netty.api.RandomChannelProxy.lambda$invoke$0(RandomChannelProxy.java:73)
+	at java.util.concurrent.CompletableFuture.uniWhenComplete(CompletableFuture.java:760)
+	at java.util.concurrent.CompletableFuture$UniWhenComplete.tryFire(CompletableFuture.java:736)
+	at java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:442)
+	at io.dingodb.common.concurrent.Executors.run(Executors.java:213)
+	at io.dingodb.common.concurrent.Executors.lambda$wrap$10(Executors.java:168)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+2024-04-03 10:21:13.984 [<172.20.3.13:8765/19/client>-29] ERROR i.d.net.netty.api.RandomChannelProxy - Invoke proxy method [public abstract org.apache.calcite.avatica.remote.Service$CloseConnectionResponse io.dingodb.driver.api.DriverProxyApi.apply(org.apache.calcite.avatica.remote.Service$CloseConnectionRequest)] on [Location(host=172.20.3.13, port=8765)/244] error.
+java.util.concurrent.ExecutionException: java.lang.reflect.InvocationTargetException: Invoke on [172.20.3.13:8765] failed.
+	at java.util.concurrent.CompletableFuture.reportGet(CompletableFuture.java:357)
+	at java.util.concurrent.CompletableFuture.get(CompletableFuture.java:1915)
+	at io.dingodb.net.netty.api.ApiProxy.invoke(ApiProxy.java:96)
+	at io.dingodb.net.netty.api.RandomChannelProxy.invoke(RandomChannelProxy.java:85)
+	at com.sun.proxy.$Proxy12.apply(Unknown Source)
+	at io.dingodb.driver.ServiceInvocationHandler.apply(ServiceInvocationHandler.java:45)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at io.dingodb.driver.ServiceInvocationHandler.invoke(ServiceInvocationHandler.java:57)
+	at com.sun.proxy.$Proxy13.apply(Unknown Source)
+	at io.dingodb.driver.DingoServiceImpl.apply(DingoServiceImpl.java:34)
+	at org.apache.calcite.avatica.remote.RemoteMeta$4.call(RemoteMeta.java:125)
+	at org.apache.calcite.avatica.remote.RemoteMeta$4.call(RemoteMeta.java:122)
+	at org.apache.calcite.avatica.AvaticaConnection.invokeWithRetries(AvaticaConnection.java:795)
+	at org.apache.calcite.avatica.remote.RemoteMeta.closeConnection(RemoteMeta.java:121)
+	at org.apache.calcite.avatica.remote.DingoRemoteMeta.closeConnection(DingoRemoteMeta.java:26)
+	at org.apache.calcite.avatica.AvaticaConnection.close(AvaticaConnection.java:218)
+	at io.dingodb.driver.client.DingoDriverClient.lambda$createMeta$1(DingoDriverClient.java:223)
+	at io.dingodb.common.util.NoBreakFunctions$WrappedConsumer.accept(NoBreakFunctions.java:275)
+	at io.dingodb.net.netty.Channel.lambda$shutdown$3(Channel.java:99)
+	at io.dingodb.common.concurrent.LinkedRunner$RunnerNode.run(LinkedRunner.java:77)
+	at io.dingodb.common.concurrent.LinkedRunner.lambda$submit$2(LinkedRunner.java:120)
+	at io.dingodb.common.concurrent.Executors.run(Executors.java:213)
+	at io.dingodb.common.concurrent.Executors.lambda$wrap$10(Executors.java:168)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.lang.reflect.InvocationTargetException: Invoke on [172.20.3.13:8765] failed.
+	at io.dingodb.net.netty.api.ApiProxy.completeExceptionally(ApiProxy.java:129)
+	at io.dingodb.net.netty.api.ApiProxy.invoke(ApiProxy.java:89)
+	... 26 common frames omitted
+Caused by: java.lang.RuntimeException: Connection closed.
+	at io.dingodb.net.netty.Connection.send(Connection.java:174)
+	at io.dingodb.net.netty.Channel.send(Channel.java:212)
+	at io.dingodb.net.netty.api.RandomChannelProxy.invoke(RandomChannelProxy.java:78)
+	at io.dingodb.net.netty.api.ApiProxy.invoke(ApiProxy.java:80)
+	... 26 common frames omitted
+2024-04-03 10:21:13.984 [on-invoke-complete-60] ERROR io.dingodb.net.netty.Channel - Send close message error.
+java.lang.RuntimeException: Connection closed.
+	at io.dingodb.net.netty.Connection.sendAsync(Connection.java:181)
+	at io.dingodb.net.netty.Channel.close(Channel.java:205)
+	at io.dingodb.net.netty.api.RandomChannelProxy.lambda$invoke$0(RandomChannelProxy.java:73)
+	at java.util.concurrent.CompletableFuture.uniWhenComplete(CompletableFuture.java:760)
+	at java.util.concurrent.CompletableFuture$UniWhenComplete.tryFire(CompletableFuture.java:736)
+	at java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:442)
+	at io.dingodb.common.concurrent.Executors.run(Executors.java:213)
+	at io.dingodb.common.concurrent.Executors.lambda$wrap$10(Executors.java:168)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+2024-04-03 10:21:13.984 [on-invoke-complete-54] ERROR io.dingodb.net.netty.Channel - Send close message error.
+java.lang.RuntimeException: Connection closed.
+	at io.dingodb.net.netty.Connection.sendAsync(Connection.java:181)
+	at io.dingodb.net.netty.Channel.close(Channel.java:205)
+	at io.dingodb.net.netty.api.RandomChannelProxy.lambda$invoke$0(RandomChannelProxy.java:73)
+	at java.util.concurrent.CompletableFuture.uniWhenComplete(CompletableFuture.java:760)
+	at java.util.concurrent.CompletableFuture$UniWhenComplete.tryFire(CompletableFuture.java:736)
+	at java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:442)
+	at io.dingodb.common.concurrent.Executors.run(Executors.java:213)
+	at io.dingodb.common.concurrent.Executors.lambda$wrap$10(Executors.java:168)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+2024-04-03 10:21:13.984 [on-invoke-complete-56] ERROR io.dingodb.net.netty.Channel - Send close message error.
+java.lang.RuntimeException: Connection closed.
+	at io.dingodb.net.netty.Connection.sendAsync(Connection.java:181)
+	at io.dingodb.net.netty.Channel.close(Channel.java:205)
+	at io.dingodb.net.netty.api.RandomChannelProxy.lambda$invoke$0(RandomChannelProxy.java:73)
+	at java.util.concurrent.CompletableFuture.uniWhenComplete(CompletableFuture.java:760)
+	at java.util.concurrent.CompletableFuture$UniWhenComplete.tryFire(CompletableFuture.java:736)
+	at java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:442)
+	at io.dingodb.common.concurrent.Executors.run(Executors.java:213)
+	at io.dingodb.common.concurrent.Executors.lambda$wrap$10(Executors.java:168)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+2024-04-03 10:21:13.984 [on-invoke-complete-53] ERROR io.dingodb.net.netty.Channel - Send close message error.
+java.lang.RuntimeException: Connection closed.
+	at io.dingodb.net.netty.Connection.sendAsync(Connection.java:181)
+	at io.dingodb.net.netty.Channel.close(Channel.java:205)
+	at io.dingodb.net.netty.api.RandomChannelProxy.lambda$invoke$0(RandomChannelProxy.java:73)
+	at java.util.concurrent.CompletableFuture.uniWhenComplete(CompletableFuture.java:760)
+	at java.util.concurrent.CompletableFuture$UniWhenComplete.tryFire(CompletableFuture.java:736)
+	at java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:442)
+	at io.dingodb.common.concurrent.Executors.run(Executors.java:213)
+	at io.dingodb.common.concurrent.Executors.lambda$wrap$10(Executors.java:168)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+2024-04-03 10:21:13.984 [<172.20.3.13:8765/31/client>-52] ERROR i.d.net.netty.api.RandomChannelProxy - Invoke proxy method [public abstract org.apache.calcite.avatica.remote.Service$CloseConnectionResponse io.dingodb.driver.api.DriverProxyApi.apply(org.apache.calcite.avatica.remote.Service$CloseConnectionRequest)] on [Location(host=172.20.3.13, port=8765)/242] error.
+java.util.concurrent.ExecutionException: java.lang.reflect.InvocationTargetException: Invoke on [172.20.3.13:8765] failed.
+	at java.util.concurrent.CompletableFuture.reportGet(CompletableFuture.java:357)
+	at java.util.concurrent.CompletableFuture.get(CompletableFuture.java:1915)
+	at io.dingodb.net.netty.api.ApiProxy.invoke(ApiProxy.java:96)
+	at io.dingodb.net.netty.api.RandomChannelProxy.invoke(RandomChannelProxy.java:85)
+	at com.sun.proxy.$Proxy12.apply(Unknown Source)
+	at io.dingodb.driver.ServiceInvocationHandler.apply(ServiceInvocationHandler.java:45)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at io.dingodb.driver.ServiceInvocationHandler.invoke(ServiceInvocationHandler.java:57)
+	at com.sun.proxy.$Proxy13.apply(Unknown Source)
+	at io.dingodb.driver.DingoServiceImpl.apply(DingoServiceImpl.java:34)
+	at org.apache.calcite.avatica.remote.RemoteMeta$4.call(RemoteMeta.java:125)
+	at org.apache.calcite.avatica.remote.RemoteMeta$4.call(RemoteMeta.java:122)
+	at org.apache.calcite.avatica.AvaticaConnection.invokeWithRetries(AvaticaConnection.java:795)
+	at org.apache.calcite.avatica.remote.RemoteMeta.closeConnection(RemoteMeta.java:121)
+	at org.apache.calcite.avatica.remote.DingoRemoteMeta.closeConnection(DingoRemoteMeta.java:26)
+	at org.apache.calcite.avatica.AvaticaConnection.close(AvaticaConnection.java:218)
+	at io.dingodb.driver.client.DingoDriverClient.lambda$createMeta$1(DingoDriverClient.java:223)
+	at io.dingodb.common.util.NoBreakFunctions$WrappedConsumer.accept(NoBreakFunctions.java:275)
+	at io.dingodb.net.netty.Channel.lambda$shutdown$3(Channel.java:99)
+	at io.dingodb.common.concurrent.LinkedRunner$RunnerNode.run(LinkedRunner.java:77)
+	at io.dingodb.common.concurrent.LinkedRunner.lambda$submit$2(LinkedRunner.java:120)
+	at io.dingodb.common.concurrent.Executors.run(Executors.java:213)
+	at io.dingodb.common.concurrent.Executors.lambda$wrap$10(Executors.java:168)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.lang.reflect.InvocationTargetException: Invoke on [172.20.3.13:8765] failed.
+	at io.dingodb.net.netty.api.ApiProxy.completeExceptionally(ApiProxy.java:129)
+	at io.dingodb.net.netty.api.ApiProxy.invoke(ApiProxy.java:89)
+	... 26 common frames omitted
+Caused by: java.lang.RuntimeException: Connection closed.
+	at io.dingodb.net.netty.Connection.send(Connection.java:174)
+	at io.dingodb.net.netty.Channel.send(Channel.java:212)
+	at io.dingodb.net.netty.api.RandomChannelProxy.invoke(RandomChannelProxy.java:78)
+	at io.dingodb.net.netty.api.ApiProxy.invoke(ApiProxy.java:80)
+	... 26 common frames omitted
+2024-04-03 10:39:00.738 [main] ERROR c.alibaba.druid.pool.DruidDataSource - testWhileIdle is true, validationQuery not set
+2024-04-03 10:39:00.756 [main] INFO  i.d.driver.client.DingoDriverClient - info:{remoteHost=172.20.3.13, port=8765, user=root, password=123123, host=10.230.212.111, timeout=1500, dbname=DINGO}
+2024-04-03 10:39:12.573 [main] INFO  io.dingodb.net.netty.Connection - Connection handshake success, remote: [172.20.3.13:8765]
+2024-04-03 10:39:12.576 [main] INFO  i.d.verify.auth.IdentityAuthService - IdentityAuth: io.dingodb.driver.auth.service.IdentityAuthImpl@736caf7a
+2024-04-03 10:39:12.583 [main] INFO  i.d.verify.auth.TokenAuthService - tokenAuth = null
+2024-04-03 10:39:12.706 [main] INFO  io.dingodb.net.netty.Connection - Connection auth success, remote: [172.20.3.13:8765]
+2024-04-03 10:39:12.707 [main] INFO  io.dingodb.net.netty.NetService - Connection open, remote: [Location(host=172.20.3.13, port=8765)].
+2024-04-03 10:39:13.333 [main] INFO  i.d.driver.client.DingoDriverClient - info:{remoteHost=172.20.3.13, port=8765, user=root, password=123123, host=10.230.212.111, timeout=1500, dbname=DINGO}
+2024-04-03 10:39:13.360 [main] INFO  i.d.driver.client.DingoDriverClient - info:{remoteHost=172.20.3.13, port=8765, user=root, password=123123, host=10.230.212.111, timeout=1500, dbname=DINGO}
+2024-04-03 10:39:13.387 [main] INFO  i.d.driver.client.DingoDriverClient - info:{remoteHost=172.20.3.13, port=8765, user=root, password=123123, host=10.230.212.111, timeout=1500, dbname=DINGO}
+2024-04-03 10:39:13.411 [main] INFO  i.d.driver.client.DingoDriverClient - info:{remoteHost=172.20.3.13, port=8765, user=root, password=123123, host=10.230.212.111, timeout=1500, dbname=DINGO}
+2024-04-03 10:39:13.433 [main] INFO  i.d.driver.client.DingoDriverClient - info:{remoteHost=172.20.3.13, port=8765, user=root, password=123123, host=10.230.212.111, timeout=1500, dbname=DINGO}
+2024-04-03 10:39:13.457 [main] INFO  i.d.driver.client.DingoDriverClient - info:{remoteHost=172.20.3.13, port=8765, user=root, password=123123, host=10.230.212.111, timeout=1500, dbname=DINGO}
+2024-04-03 10:39:13.481 [main] INFO  i.d.driver.client.DingoDriverClient - info:{remoteHost=172.20.3.13, port=8765, user=root, password=123123, host=10.230.212.111, timeout=1500, dbname=DINGO}
+2024-04-03 10:39:13.510 [main] INFO  c.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2024-04-03 10:39:14.253 [main] INFO  io.dingodb.hatest.TestHA - -----------------------------------------------------------------------------------------------
+2024-04-03 10:39:14.253 [main] INFO  io.dingodb.hatest.TestHA - 测试用例ID： sqlha_001
+2024-04-03 10:39:27.785 [main] INFO  io.dingodb.hatest.TestHA - 验证表的raft已提交日志一致。
+2024-04-03 10:39:30.977 [main] ERROR i.d.s.common.utils.NoBreakFunctions - Execute function error.
+io.grpc.StatusRuntimeException: DEADLINE_EXCEEDED: deadline exceeded after 0.967372500s. [closed=[], open=[[buffered_nanos=971562800, waiting_for_connection]]]
+	at io.grpc.stub.ClientCalls.toStatusRuntimeException(ClientCalls.java:271)
+	at io.grpc.stub.ClientCalls.getUnchecked(ClientCalls.java:252)
+	at io.grpc.stub.ClientCalls.blockingUnaryCall(ClientCalls.java:165)
+	at io.dingodb.coordinator.CoordinatorServiceGrpc$CoordinatorServiceBlockingStub.getCoordinatorMap(CoordinatorServiceGrpc.java:2935)
+	at io.dingodb.sdk.service.connector.CoordinatorServiceConnector.transformToLeaderChannel(CoordinatorServiceConnector.java:53)
+	at io.dingodb.sdk.common.utils.NoBreakFunctions$WrappedFunction.apply(NoBreakFunctions.java:227)
+	at java.util.Optional.map(Optional.java:215)
+	at io.dingodb.sdk.common.utils.Optional.map(Optional.java:164)
+	at io.dingodb.sdk.service.connector.ServiceConnector.refresh(ServiceConnector.java:284)
+	at io.dingodb.sdk.service.connector.ServiceConnector.exec(ServiceConnector.java:190)
+	at io.dingodb.sdk.service.connector.ServiceConnector.exec(ServiceConnector.java:143)
+	at io.dingodb.sdk.service.connector.CoordinatorServiceConnector.getCoordinatorMap(CoordinatorServiceConnector.java:43)
+	at io.dingodb.sdk.service.connector.MetaServiceConnector.transformToLeaderChannel(MetaServiceConnector.java:59)
+	at io.dingodb.sdk.service.connector.ServiceConnector.refresh(ServiceConnector.java:275)
+	at io.dingodb.sdk.service.connector.ServiceConnector.exec(ServiceConnector.java:190)
+	at io.dingodb.sdk.service.connector.ServiceConnector.exec(ServiceConnector.java:139)
+	at io.dingodb.sdk.service.meta.MetaServiceClient.getSubMetaService(MetaServiceClient.java:155)
+	at io.dingodb.DingSDKHelper.getTablePartAndRegion(DingSDKHelper.java:38)
+	at io.dingodb.hatest.TestHA.checkTableConsistent(TestHA.java:382)
+	at io.dingodb.hatest.TestHA.test01RaftCommitIndexConsistent(TestHA.java:125)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:134)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:597)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:816)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.util.ArrayList.forEach(ArrayList.java:1257)
+	at org.testng.TestRunner.privateRun(TestRunner.java:766)
+	at org.testng.TestRunner.run(TestRunner.java:587)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1187)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1109)
+	at org.testng.TestNG.runSuites(TestNG.java:1039)
+	at org.testng.TestNG.run(TestNG.java:1007)
+	at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66)
+	at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:109)
+2024-04-03 10:39:32.375 [main] INFO  io.dingodb.hatest.TestHA - 表partition和region: [60036\[80018\], 60037\[80019\], 60038\[80020\]]
+2024-04-03 10:39:32.375 [main] INFO  io.dingodb.hatest.TestHA - raft节点:172.20.3.13:20101
+2024-04-03 10:39:32.530 [main] INFO  io.dingodb.hatest.TestHA - raft节点172.20.3.13:20101->[6, 3, 7]
+2024-04-03 10:39:32.530 [main] INFO  io.dingodb.hatest.TestHA - raft节点:172.20.3.219:20101
+2024-04-03 10:39:32.701 [main] INFO  io.dingodb.hatest.TestHA - raft节点172.20.3.219:20101->[6, 3, 7]
+2024-04-03 10:39:32.701 [main] INFO  io.dingodb.hatest.TestHA - raft节点:172.20.3.15:20101
+2024-04-03 10:39:32.866 [main] INFO  io.dingodb.hatest.TestHA - raft节点172.20.3.15:20101->[6, 3, 7]
+2024-04-03 10:39:32.866 [main] INFO  io.dingodb.hatest.TestHA - 每个节点的table_last_commit_index: [[6, 3, 7], [6, 3, 7], [6, 3, 7]]
+2024-04-03 10:39:32.873 [main] INFO  io.dingodb.hatest.TestHA - ================================================
+2024-04-03 10:39:32.873 [main] INFO  io.dingodb.hatest.TestHA - 验证标量索引的raft已提交日志一致
+2024-04-03 10:39:35.984 [main] INFO  io.dingodb.hatest.TestHA - 标量索引partition和region: {SQLHA_001_MIXINDEX001.BIRTHDAY_INDEX=[60047\[80026\], 60048\[80027\], 60049\[80028\], 60050\[80029\], 60051\[80030\]], SQLHA_001_MIXINDEX001.NAME_INDEX=[60042\[80022\], 60043\[80023\], 60044\[80024\], 60045\[80025\]], SQLHA_001_MIXINDEX001.AGE_INDEX=[60040\[80021\]]}
+2024-04-03 10:39:35.984 [main] INFO  io.dingodb.hatest.TestHA - raft节点:172.20.3.13:20101
+2024-04-03 10:39:36.122 [main] INFO  io.dingodb.hatest.TestHA - raft节点172.20.3.13:20101->[5, 5, 5, 5, 5]
+2024-04-03 10:39:36.122 [main] INFO  io.dingodb.hatest.TestHA - raft节点:172.20.3.219:20101
+2024-04-03 10:39:36.265 [main] INFO  io.dingodb.hatest.TestHA - raft节点172.20.3.219:20101->[5, 5, 5, 5, 5]
+2024-04-03 10:39:36.265 [main] INFO  io.dingodb.hatest.TestHA - raft节点:172.20.3.15:20101
+2024-04-03 10:39:36.407 [main] INFO  io.dingodb.hatest.TestHA - raft节点172.20.3.15:20101->[5, 5, 5, 5, 5]
+2024-04-03 10:39:36.407 [main] INFO  io.dingodb.hatest.TestHA - 标量索引--SQLHA_001_MIXINDEX001.BIRTHDAY_INDEX--[[5, 5, 5, 5, 5], [5, 5, 5, 5, 5], [5, 5, 5, 5, 5]]
+2024-04-03 10:39:36.407 [main] INFO  io.dingodb.hatest.TestHA - raft节点:172.20.3.13:20101
+2024-04-03 10:39:36.514 [main] INFO  io.dingodb.hatest.TestHA - raft节点172.20.3.13:20101->[5, 5, 5, 5]
+2024-04-03 10:39:36.514 [main] INFO  io.dingodb.hatest.TestHA - raft节点:172.20.3.219:20101
+2024-04-03 10:39:36.665 [main] INFO  io.dingodb.hatest.TestHA - raft节点172.20.3.219:20101->[5, 5, 5, 5]
+2024-04-03 10:39:36.665 [main] INFO  io.dingodb.hatest.TestHA - raft节点:172.20.3.15:20101
+2024-04-03 10:39:36.789 [main] INFO  io.dingodb.hatest.TestHA - raft节点172.20.3.15:20101->[5, 5, 5, 5]
+2024-04-03 10:39:36.789 [main] INFO  io.dingodb.hatest.TestHA - 标量索引--SQLHA_001_MIXINDEX001.NAME_INDEX--[[5, 5, 5, 5], [5, 5, 5, 5], [5, 5, 5, 5]]
+2024-04-03 10:39:36.789 [main] INFO  io.dingodb.hatest.TestHA - raft节点:172.20.3.13:20101
+2024-04-03 10:39:36.818 [main] INFO  io.dingodb.hatest.TestHA - raft节点172.20.3.13:20101->[5]
+2024-04-03 10:39:36.818 [main] INFO  io.dingodb.hatest.TestHA - raft节点:172.20.3.219:20101
+2024-04-03 10:39:36.848 [main] INFO  io.dingodb.hatest.TestHA - raft节点172.20.3.219:20101->[5]
+2024-04-03 10:39:36.848 [main] INFO  io.dingodb.hatest.TestHA - raft节点:172.20.3.15:20101
+2024-04-03 10:39:36.896 [main] INFO  io.dingodb.hatest.TestHA - raft节点172.20.3.15:20101->[5]
+2024-04-03 10:39:36.897 [main] INFO  io.dingodb.hatest.TestHA - 标量索引--SQLHA_001_MIXINDEX001.AGE_INDEX--[[5], [5], [5]]
+2024-04-03 10:39:36.897 [main] INFO  io.dingodb.hatest.TestHA - ================================================
+2024-04-03 10:39:36.897 [main] INFO  io.dingodb.hatest.TestHA - 验证向量索引的raft已提交日志一致
+2024-04-03 10:39:39.952 [main] INFO  io.dingodb.hatest.TestHA - 向量索引partition和region: {SQLHA_001_MIXINDEX001.FEATURE_INDEX=[60053\[80031\], 60054\[80032\], 60055\[80033\], 60056\[80034\], 60057\[80035\]]}
+2024-04-03 10:39:39.952 [main] INFO  io.dingodb.hatest.TestHA - raft节点:172.20.3.13:21101
+2024-04-03 10:39:40.069 [main] INFO  io.dingodb.hatest.TestHA - raft节点172.20.3.13:21101->[5, 5, 5, 3, 5]
+2024-04-03 10:39:40.070 [main] INFO  io.dingodb.hatest.TestHA - raft节点:172.20.3.219:21101
+2024-04-03 10:39:40.199 [main] INFO  io.dingodb.hatest.TestHA - raft节点172.20.3.219:21101->[5, 5, 5, 3, 5]
+2024-04-03 10:39:40.199 [main] INFO  io.dingodb.hatest.TestHA - raft节点:172.20.3.15:21101
+2024-04-03 10:39:40.357 [main] INFO  io.dingodb.hatest.TestHA - raft节点172.20.3.15:21101->[5, 5, 5, 3, 5]
+2024-04-03 10:39:40.357 [main] INFO  io.dingodb.hatest.TestHA - 向量索引--SQLHA_001_MIXINDEX001.FEATURE_INDEX--[[5, 5, 5, 3, 5], [5, 5, 5, 3, 5], [5, 5, 5, 3, 5]]
+2024-04-03 10:39:40.357 [main] INFO  io.dingodb.hatest.TestHA - 表和索引raft验证完毕！
+2024-04-03 10:39:40.357 [main] INFO  io.dingodb.hatest.TestHA - +++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+2024-04-03 10:39:40.357 [main] INFO  io.dingodb.hatest.TestHA - 验证DML操作的raft一致性
+2024-04-03 10:39:42.618 [main] INFO  io.dingodb.hatest.TestHA - 验证表的raft已提交日志一致。
+2024-04-03 10:39:45.659 [main] INFO  io.dingodb.hatest.TestHA - 表partition和region: [60036\[80018\], 60037\[80019\], 60038\[80020\]]
+2024-04-03 10:39:45.659 [main] INFO  io.dingodb.hatest.TestHA - raft节点:172.20.3.13:20101
+2024-04-03 10:39:45.740 [main] INFO  io.dingodb.hatest.TestHA - raft节点172.20.3.13:20101->[14, 7, 15]
+2024-04-03 10:39:45.740 [main] INFO  io.dingodb.hatest.TestHA - raft节点:172.20.3.219:20101
+2024-04-03 10:39:45.837 [main] INFO  io.dingodb.hatest.TestHA - raft节点172.20.3.219:20101->[14, 7, 15]
+2024-04-03 10:39:45.837 [main] INFO  io.dingodb.hatest.TestHA - raft节点:172.20.3.15:20101
+2024-04-03 10:39:45.941 [main] INFO  io.dingodb.hatest.TestHA - raft节点172.20.3.15:20101->[14, 7, 15]
+2024-04-03 10:39:45.942 [main] INFO  io.dingodb.hatest.TestHA - 每个节点的table_last_commit_index: [[14, 7, 15], [14, 7, 15], [14, 7, 15]]
+2024-04-03 10:39:45.942 [main] INFO  io.dingodb.hatest.TestHA - ================================================
+2024-04-03 10:39:45.942 [main] INFO  io.dingodb.hatest.TestHA - 验证标量索引的raft已提交日志一致
+2024-04-03 10:39:48.999 [main] INFO  io.dingodb.hatest.TestHA - 标量索引partition和region: {SQLHA_001_MIXINDEX001.BIRTHDAY_INDEX=[60047\[80026\], 60048\[80027\], 60049\[80028\], 60050\[80029\], 60051\[80030\]], SQLHA_001_MIXINDEX001.NAME_INDEX=[60042\[80022\], 60043\[80023\], 60044\[80024\], 60045\[80025\]], SQLHA_001_MIXINDEX001.AGE_INDEX=[60040\[80021\]]}
+2024-04-03 10:39:48.999 [main] INFO  io.dingodb.hatest.TestHA - raft节点:172.20.3.13:20101
+2024-04-03 10:39:49.110 [main] INFO  io.dingodb.hatest.TestHA - raft节点172.20.3.13:20101->[11, 9, 11, 11, 11]
+2024-04-03 10:39:49.110 [main] INFO  io.dingodb.hatest.TestHA - raft节点:172.20.3.219:20101
+2024-04-03 10:39:49.245 [main] INFO  io.dingodb.hatest.TestHA - raft节点172.20.3.219:20101->[11, 9, 11, 11, 11]
+2024-04-03 10:39:49.245 [main] INFO  io.dingodb.hatest.TestHA - raft节点:172.20.3.15:20101
+2024-04-03 10:39:49.364 [main] INFO  io.dingodb.hatest.TestHA - raft节点172.20.3.15:20101->[11, 9, 11, 11, 11]
+2024-04-03 10:39:49.364 [main] INFO  io.dingodb.hatest.TestHA - 标量索引--SQLHA_001_MIXINDEX001.BIRTHDAY_INDEX--[[11, 9, 11, 11, 11], [11, 9, 11, 11, 11], [11, 9, 11, 11, 11]]
+2024-04-03 10:39:49.364 [main] INFO  io.dingodb.hatest.TestHA - raft节点:172.20.3.13:20101
+2024-04-03 10:39:49.478 [main] INFO  io.dingodb.hatest.TestHA - raft节点172.20.3.13:20101->[11, 9, 9, 9]
+2024-04-03 10:39:49.478 [main] INFO  io.dingodb.hatest.TestHA - raft节点:172.20.3.219:20101
+2024-04-03 10:39:49.604 [main] INFO  io.dingodb.hatest.TestHA - raft节点172.20.3.219:20101->[11, 9, 9, 9]
+2024-04-03 10:39:49.604 [main] INFO  io.dingodb.hatest.TestHA - raft节点:172.20.3.15:20101
+2024-04-03 10:39:49.720 [main] INFO  io.dingodb.hatest.TestHA - raft节点172.20.3.15:20101->[11, 9, 9, 9]
+2024-04-03 10:39:49.720 [main] INFO  io.dingodb.hatest.TestHA - 标量索引--SQLHA_001_MIXINDEX001.NAME_INDEX--[[11, 9, 9, 9], [11, 9, 9, 9], [11, 9, 9, 9]]
+2024-04-03 10:39:49.720 [main] INFO  io.dingodb.hatest.TestHA - raft节点:172.20.3.13:20101
+2024-04-03 10:39:49.748 [main] INFO  io.dingodb.hatest.TestHA - raft节点172.20.3.13:20101->[11]
+2024-04-03 10:39:49.748 [main] INFO  io.dingodb.hatest.TestHA - raft节点:172.20.3.219:20101
+2024-04-03 10:39:49.779 [main] INFO  io.dingodb.hatest.TestHA - raft节点172.20.3.219:20101->[11]
+2024-04-03 10:39:49.779 [main] INFO  io.dingodb.hatest.TestHA - raft节点:172.20.3.15:20101
+2024-04-03 10:39:49.830 [main] INFO  io.dingodb.hatest.TestHA - raft节点172.20.3.15:20101->[11]
+2024-04-03 10:39:49.830 [main] INFO  io.dingodb.hatest.TestHA - 标量索引--SQLHA_001_MIXINDEX001.AGE_INDEX--[[11], [11], [11]]
+2024-04-03 10:39:49.830 [main] INFO  io.dingodb.hatest.TestHA - ================================================
+2024-04-03 10:39:49.830 [main] INFO  io.dingodb.hatest.TestHA - 验证向量索引的raft已提交日志一致
+2024-04-03 10:39:52.875 [main] INFO  io.dingodb.hatest.TestHA - 向量索引partition和region: {SQLHA_001_MIXINDEX001.FEATURE_INDEX=[60053\[80031\], 60054\[80032\], 60055\[80033\], 60056\[80034\], 60057\[80035\]]}
+2024-04-03 10:39:52.875 [main] INFO  io.dingodb.hatest.TestHA - raft节点:172.20.3.13:21101
+2024-04-03 10:39:52.982 [main] INFO  io.dingodb.hatest.TestHA - raft节点172.20.3.13:21101->[11, 11, 11, 5, 11]
+2024-04-03 10:39:52.983 [main] INFO  io.dingodb.hatest.TestHA - raft节点:172.20.3.219:21101
+2024-04-03 10:39:53.104 [main] INFO  io.dingodb.hatest.TestHA - raft节点172.20.3.219:21101->[11, 11, 11, 5, 11]
+2024-04-03 10:39:53.105 [main] INFO  io.dingodb.hatest.TestHA - raft节点:172.20.3.15:21101
+2024-04-03 10:39:53.241 [main] INFO  io.dingodb.hatest.TestHA - raft节点172.20.3.15:21101->[11, 11, 11, 5, 11]
+2024-04-03 10:39:53.241 [main] INFO  io.dingodb.hatest.TestHA - 向量索引--SQLHA_001_MIXINDEX001.FEATURE_INDEX--[[11, 11, 11, 5, 11], [11, 11, 11, 5, 11], [11, 11, 11, 5, 11]]
+2024-04-03 10:39:53.241 [main] INFO  io.dingodb.hatest.TestHA - DML操作raft一致性验证完毕
+2024-04-03 10:39:53.244 [main] INFO  io.dingodb.hatest.TestHA - -----------------------------------------------------------------------------------------------
+2024-04-03 10:39:53.244 [main] INFO  io.dingodb.hatest.TestHA - 测试用例ID： sqlha_002
+2024-04-03 10:39:59.449 [main] INFO  io.dingodb.hatest.TestHA - 验证表的raft已提交日志一致。
+2024-04-03 10:40:02.487 [main] INFO  io.dingodb.hatest.TestHA - 表partition和region: [60059\[80036\], 60060\[80037\], 60061\[80038\]]
+2024-04-03 10:40:02.488 [main] INFO  io.dingodb.hatest.TestHA - raft节点:172.20.3.13:20101
+2024-04-03 10:40:02.551 [main] INFO  io.dingodb.hatest.TestHA - raft节点172.20.3.13:20101->[6, 3, 7]
+2024-04-03 10:40:02.552 [main] INFO  io.dingodb.hatest.TestHA - raft节点:172.20.3.219:20101
+2024-04-03 10:40:02.617 [main] INFO  io.dingodb.hatest.TestHA - raft节点172.20.3.219:20101->[6, 3, 7]
+2024-04-03 10:40:02.617 [main] INFO  io.dingodb.hatest.TestHA - raft节点:172.20.3.15:20101
+2024-04-03 10:40:02.686 [main] INFO  io.dingodb.hatest.TestHA - raft节点172.20.3.15:20101->[6, 3, 7]
+2024-04-03 10:40:02.686 [main] INFO  io.dingodb.hatest.TestHA - 每个节点的table_last_commit_index: [[6, 3, 7], [6, 3, 7], [6, 3, 7]]
+2024-04-03 10:40:02.686 [main] INFO  io.dingodb.hatest.TestHA - ================================================
+2024-04-03 10:40:02.686 [main] INFO  io.dingodb.hatest.TestHA - 验证标量索引的raft已提交日志一致
+2024-04-03 10:40:05.744 [main] INFO  io.dingodb.hatest.TestHA - 标量索引partition和region: {SQLHA_002_MIXINDEX001.NAME_INDEX=[60065\[80040\], 60066\[80041\], 60067\[80042\], 60068\[80043\]], SQLHA_002_MIXINDEX001.BIRTHDAY_INDEX=[60070\[80044\], 60071\[80045\], 60072\[80046\], 60073\[80047\], 60074\[80048\]], SQLHA_002_MIXINDEX001.AGE_INDEX=[60063\[80039\]]}
+2024-04-03 10:40:05.745 [main] INFO  io.dingodb.hatest.TestHA - raft节点:172.20.3.13:20101
+2024-04-03 10:40:05.883 [main] INFO  io.dingodb.hatest.TestHA - raft节点172.20.3.13:20101->[5, 5, 5, 5]
+2024-04-03 10:40:05.884 [main] INFO  io.dingodb.hatest.TestHA - raft节点:172.20.3.219:20101
+2024-04-03 10:40:06.015 [main] INFO  io.dingodb.hatest.TestHA - raft节点172.20.3.219:20101->[5, 5, 5, 5]
+2024-04-03 10:40:06.015 [main] INFO  io.dingodb.hatest.TestHA - raft节点:172.20.3.15:20101
+2024-04-03 10:40:06.204 [main] INFO  io.dingodb.hatest.TestHA - raft节点172.20.3.15:20101->[5, 5, 5, 5]
+2024-04-03 10:40:06.204 [main] INFO  io.dingodb.hatest.TestHA - 标量索引--SQLHA_002_MIXINDEX001.NAME_INDEX--[[5, 5, 5, 5], [5, 5, 5, 5], [5, 5, 5, 5]]
+2024-04-03 10:40:06.204 [main] INFO  io.dingodb.hatest.TestHA - raft节点:172.20.3.13:20101
+2024-04-03 10:40:06.503 [main] INFO  io.dingodb.hatest.TestHA - raft节点172.20.3.13:20101->[5, 5, 5, 5, 5]
+2024-04-03 10:40:06.503 [main] INFO  io.dingodb.hatest.TestHA - raft节点:172.20.3.219:20101
+2024-04-03 10:40:06.815 [main] INFO  io.dingodb.hatest.TestHA - raft节点172.20.3.219:20101->[5, 5, 5, 5, 5]
+2024-04-03 10:40:06.815 [main] INFO  io.dingodb.hatest.TestHA - raft节点:172.20.3.15:20101
+2024-04-03 10:40:07.258 [main] INFO  io.dingodb.hatest.TestHA - raft节点172.20.3.15:20101->[5, 5, 5, 5, 5]
+2024-04-03 10:40:07.258 [main] INFO  io.dingodb.hatest.TestHA - 标量索引--SQLHA_002_MIXINDEX001.BIRTHDAY_INDEX--[[5, 5, 5, 5, 5], [5, 5, 5, 5, 5], [5, 5, 5, 5, 5]]
+2024-04-03 10:40:07.258 [main] INFO  io.dingodb.hatest.TestHA - raft节点:172.20.3.13:20101
+2024-04-03 10:40:07.328 [main] INFO  io.dingodb.hatest.TestHA - raft节点172.20.3.13:20101->[5]
+2024-04-03 10:40:07.329 [main] INFO  io.dingodb.hatest.TestHA - raft节点:172.20.3.219:20101
+2024-04-03 10:40:07.415 [main] INFO  io.dingodb.hatest.TestHA - raft节点172.20.3.219:20101->[5]
+2024-04-03 10:40:07.415 [main] INFO  io.dingodb.hatest.TestHA - raft节点:172.20.3.15:20101
+2024-04-03 10:40:07.472 [main] INFO  io.dingodb.hatest.TestHA - raft节点172.20.3.15:20101->[5]
+2024-04-03 10:40:07.472 [main] INFO  io.dingodb.hatest.TestHA - 标量索引--SQLHA_002_MIXINDEX001.AGE_INDEX--[[5], [5], [5]]
+2024-04-03 10:40:07.472 [main] INFO  io.dingodb.hatest.TestHA - ================================================
+2024-04-03 10:40:07.472 [main] INFO  io.dingodb.hatest.TestHA - 验证向量索引的raft已提交日志一致
+2024-04-03 10:40:10.537 [main] INFO  io.dingodb.hatest.TestHA - 向量索引partition和region: {SQLHA_002_MIXINDEX001.FEATURE_INDEX=[60076\[80049\], 60077\[80050\], 60078\[80051\], 60079\[80052\], 60080\[80053\]]}
+2024-04-03 10:40:10.537 [main] INFO  io.dingodb.hatest.TestHA - raft节点:172.20.3.13:21101
+2024-04-03 10:40:10.643 [main] INFO  io.dingodb.hatest.TestHA - raft节点172.20.3.13:21101->[5, 5, 5, 5, 5]
+2024-04-03 10:40:10.644 [main] INFO  io.dingodb.hatest.TestHA - raft节点:172.20.3.219:21101
+2024-04-03 10:40:10.758 [main] INFO  io.dingodb.hatest.TestHA - raft节点172.20.3.219:21101->[5, 5, 5, 5, 5]
+2024-04-03 10:40:10.758 [main] INFO  io.dingodb.hatest.TestHA - raft节点:172.20.3.15:21101
+2024-04-03 10:40:10.885 [main] INFO  io.dingodb.hatest.TestHA - raft节点172.20.3.15:21101->[5, 5, 5, 5, 5]
+2024-04-03 10:40:10.885 [main] INFO  io.dingodb.hatest.TestHA - 向量索引--SQLHA_002_MIXINDEX001.FEATURE_INDEX--[[5, 5, 5, 5, 5], [5, 5, 5, 5, 5], [5, 5, 5, 5, 5]]
+2024-04-03 10:40:10.885 [main] INFO  io.dingodb.hatest.TestHA - 表和索引raft验证完毕！
+2024-04-03 10:40:17.079 [main] INFO  io.dingodb.hatest.TestHA - +++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+2024-04-03 10:40:17.079 [main] INFO  io.dingodb.hatest.TestHA - 验证停止coordinator后DML操作的raft一致性
+2024-04-03 10:40:22.528 [main] INFO  io.dingodb.hatest.TestHA - 验证表的raft已提交日志一致。
+2024-04-03 10:40:25.571 [main] INFO  io.dingodb.hatest.TestHA - 表partition和region: [60059\[80036\], 60060\[80037\], 60061\[80038\]]
+2024-04-03 10:40:25.571 [main] INFO  io.dingodb.hatest.TestHA - raft节点:172.20.3.13:20101
+2024-04-03 10:40:25.686 [main] INFO  io.dingodb.hatest.TestHA - raft节点172.20.3.13:20101->[14, 7, 17]
+2024-04-03 10:40:25.687 [main] INFO  io.dingodb.hatest.TestHA - raft节点:172.20.3.219:20101
+2024-04-03 10:40:25.796 [main] INFO  io.dingodb.hatest.TestHA - raft节点172.20.3.219:20101->[14, 7, 17]
+2024-04-03 10:40:25.796 [main] INFO  io.dingodb.hatest.TestHA - raft节点:172.20.3.15:20101
+2024-04-03 10:40:25.903 [main] INFO  io.dingodb.hatest.TestHA - raft节点172.20.3.15:20101->[14, 7, 17]
+2024-04-03 10:40:25.903 [main] INFO  io.dingodb.hatest.TestHA - 每个节点的table_last_commit_index: [[14, 7, 17], [14, 7, 17], [14, 7, 17]]
+2024-04-03 10:40:25.903 [main] INFO  io.dingodb.hatest.TestHA - ================================================
+2024-04-03 10:40:25.903 [main] INFO  io.dingodb.hatest.TestHA - 验证标量索引的raft已提交日志一致
+2024-04-03 10:40:28.972 [main] INFO  io.dingodb.hatest.TestHA - 标量索引partition和region: {SQLHA_002_MIXINDEX001.NAME_INDEX=[60065\[80040\], 60066\[80041\], 60067\[80042\], 60068\[80043\]], SQLHA_002_MIXINDEX001.BIRTHDAY_INDEX=[60070\[80044\], 60071\[80045\], 60072\[80046\], 60073\[80047\], 60074\[80048\]], SQLHA_002_MIXINDEX001.AGE_INDEX=[60063\[80039\]]}
+2024-04-03 10:40:28.972 [main] INFO  io.dingodb.hatest.TestHA - raft节点:172.20.3.13:20101
+2024-04-03 10:40:29.054 [main] INFO  io.dingodb.hatest.TestHA - raft节点172.20.3.13:20101->[9, 11, 13, 9]
+2024-04-03 10:40:29.054 [main] INFO  io.dingodb.hatest.TestHA - raft节点:172.20.3.219:20101
+2024-04-03 10:40:29.136 [main] INFO  io.dingodb.hatest.TestHA - raft节点172.20.3.219:20101->[9, 11, 13, 9]
+2024-04-03 10:40:29.137 [main] INFO  io.dingodb.hatest.TestHA - raft节点:172.20.3.15:20101
+2024-04-03 10:40:29.218 [main] INFO  io.dingodb.hatest.TestHA - raft节点172.20.3.15:20101->[9, 11, 13, 9]
+2024-04-03 10:40:29.218 [main] INFO  io.dingodb.hatest.TestHA - 标量索引--SQLHA_002_MIXINDEX001.NAME_INDEX--[[9, 11, 13, 9], [9, 11, 13, 9], [9, 11, 13, 9]]
+2024-04-03 10:40:29.218 [main] INFO  io.dingodb.hatest.TestHA - raft节点:172.20.3.13:20101
+2024-04-03 10:40:29.327 [main] INFO  io.dingodb.hatest.TestHA - raft节点172.20.3.13:20101->[11, 11, 11, 11, 9]
+2024-04-03 10:40:29.328 [main] INFO  io.dingodb.hatest.TestHA - raft节点:172.20.3.219:20101
+2024-04-03 10:40:29.444 [main] INFO  io.dingodb.hatest.TestHA - raft节点172.20.3.219:20101->[11, 11, 11, 11, 9]
+2024-04-03 10:40:29.444 [main] INFO  io.dingodb.hatest.TestHA - raft节点:172.20.3.15:20101
+2024-04-03 10:40:29.567 [main] INFO  io.dingodb.hatest.TestHA - raft节点172.20.3.15:20101->[11, 11, 11, 11, 9]
+2024-04-03 10:40:29.567 [main] INFO  io.dingodb.hatest.TestHA - 标量索引--SQLHA_002_MIXINDEX001.BIRTHDAY_INDEX--[[11, 11, 11, 11, 9], [11, 11, 11, 11, 9], [11, 11, 11, 11, 9]]
+2024-04-03 10:40:29.567 [main] INFO  io.dingodb.hatest.TestHA - raft节点:172.20.3.13:20101
+2024-04-03 10:40:29.592 [main] INFO  io.dingodb.hatest.TestHA - raft节点172.20.3.13:20101->[13]
+2024-04-03 10:40:29.592 [main] INFO  io.dingodb.hatest.TestHA - raft节点:172.20.3.219:20101
+2024-04-03 10:40:29.618 [main] INFO  io.dingodb.hatest.TestHA - raft节点172.20.3.219:20101->[13]
+2024-04-03 10:40:29.618 [main] INFO  io.dingodb.hatest.TestHA - raft节点:172.20.3.15:20101
+2024-04-03 10:40:29.645 [main] INFO  io.dingodb.hatest.TestHA - raft节点172.20.3.15:20101->[13]
+2024-04-03 10:40:29.645 [main] INFO  io.dingodb.hatest.TestHA - 标量索引--SQLHA_002_MIXINDEX001.AGE_INDEX--[[13], [13], [13]]
+2024-04-03 10:40:29.645 [main] INFO  io.dingodb.hatest.TestHA - ================================================
+2024-04-03 10:40:29.645 [main] INFO  io.dingodb.hatest.TestHA - 验证向量索引的raft已提交日志一致
+2024-04-03 10:40:32.705 [main] INFO  io.dingodb.hatest.TestHA - 向量索引partition和region: {SQLHA_002_MIXINDEX001.FEATURE_INDEX=[60076\[80049\], 60077\[80050\], 60078\[80051\], 60079\[80052\], 60080\[80053\]]}
+2024-04-03 10:40:32.705 [main] INFO  io.dingodb.hatest.TestHA - raft节点:172.20.3.13:21101
+2024-04-03 10:40:32.805 [main] INFO  io.dingodb.hatest.TestHA - raft节点172.20.3.13:21101->[11, 11, 9, 13, 9]
+2024-04-03 10:40:32.805 [main] INFO  io.dingodb.hatest.TestHA - raft节点:172.20.3.219:21101
+2024-04-03 10:40:32.910 [main] INFO  io.dingodb.hatest.TestHA - raft节点172.20.3.219:21101->[11, 11, 9, 13, 9]
+2024-04-03 10:40:32.910 [main] INFO  io.dingodb.hatest.TestHA - raft节点:172.20.3.15:21101
+2024-04-03 10:40:33.012 [main] INFO  io.dingodb.hatest.TestHA - raft节点172.20.3.15:21101->[11, 11, 9, 13, 9]
+2024-04-03 10:40:33.012 [main] INFO  io.dingodb.hatest.TestHA - 向量索引--SQLHA_002_MIXINDEX001.FEATURE_INDEX--[[11, 11, 9, 13, 9], [11, 11, 9, 13, 9], [11, 11, 9, 13, 9]]
+2024-04-03 10:40:33.012 [main] INFO  io.dingodb.hatest.TestHA - coordinator的停止场景的表操作的raft一致性验证完毕,删除脚本
+2024-04-03 10:40:39.178 [main] INFO  io.dingodb.hatest.TestHA - +++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+2024-04-03 10:40:39.178 [main] INFO  io.dingodb.hatest.TestHA - 验证启动coordinator后DML操作的raft一致性
+2024-04-03 10:40:42.920 [main] INFO  io.dingodb.hatest.TestHA - 验证表的raft已提交日志一致。
+2024-04-03 10:40:45.961 [main] INFO  io.dingodb.hatest.TestHA - 表partition和region: [60059\[80036\], 60060\[80037\], 60061\[80038\]]
+2024-04-03 10:40:45.962 [main] INFO  io.dingodb.hatest.TestHA - raft节点:172.20.3.13:20101
+2024-04-03 10:40:46.022 [main] INFO  io.dingodb.hatest.TestHA - raft节点172.20.3.13:20101->[14, 11, 25]
+2024-04-03 10:40:46.022 [main] INFO  io.dingodb.hatest.TestHA - raft节点:172.20.3.219:20101
+2024-04-03 10:40:46.086 [main] INFO  io.dingodb.hatest.TestHA - raft节点172.20.3.219:20101->[14, 11, 25]
+2024-04-03 10:40:46.086 [main] INFO  io.dingodb.hatest.TestHA - raft节点:172.20.3.15:20101
+2024-04-03 10:40:46.146 [main] INFO  io.dingodb.hatest.TestHA - raft节点172.20.3.15:20101->[14, 11, 25]
+2024-04-03 10:40:46.146 [main] INFO  io.dingodb.hatest.TestHA - 每个节点的table_last_commit_index: [[14, 11, 25], [14, 11, 25], [14, 11, 25]]
+2024-04-03 10:40:46.146 [main] INFO  io.dingodb.hatest.TestHA - ================================================
+2024-04-03 10:40:46.146 [main] INFO  io.dingodb.hatest.TestHA - 验证标量索引的raft已提交日志一致
+2024-04-03 10:40:49.196 [main] INFO  io.dingodb.hatest.TestHA - 标量索引partition和region: {SQLHA_002_MIXINDEX001.NAME_INDEX=[60065\[80040\], 60066\[80041\], 60067\[80042\], 60068\[80043\]], SQLHA_002_MIXINDEX001.BIRTHDAY_INDEX=[60070\[80044\], 60071\[80045\], 60072\[80046\], 60073\[80047\], 60074\[80048\]], SQLHA_002_MIXINDEX001.AGE_INDEX=[60063\[80039\]]}
+2024-04-03 10:40:49.197 [main] INFO  io.dingodb.hatest.TestHA - raft节点:172.20.3.13:20101
+2024-04-03 10:40:49.278 [main] INFO  io.dingodb.hatest.TestHA - raft节点172.20.3.13:20101->[13, 13, 17, 13]
+2024-04-03 10:40:49.278 [main] INFO  io.dingodb.hatest.TestHA - raft节点:172.20.3.219:20101
+2024-04-03 10:40:49.365 [main] INFO  io.dingodb.hatest.TestHA - raft节点172.20.3.219:20101->[13, 13, 17, 13]
+2024-04-03 10:40:49.366 [main] INFO  io.dingodb.hatest.TestHA - raft节点:172.20.3.15:20101
+2024-04-03 10:40:49.448 [main] INFO  io.dingodb.hatest.TestHA - raft节点172.20.3.15:20101->[13, 13, 17, 13]
+2024-04-03 10:40:49.448 [main] INFO  io.dingodb.hatest.TestHA - 标量索引--SQLHA_002_MIXINDEX001.NAME_INDEX--[[13, 13, 17, 13], [13, 13, 17, 13], [13, 13, 17, 13]]
+2024-04-03 10:40:49.448 [main] INFO  io.dingodb.hatest.TestHA - raft节点:172.20.3.13:20101
+2024-04-03 10:40:49.548 [main] INFO  io.dingodb.hatest.TestHA - raft节点172.20.3.13:20101->[15, 15, 15, 11, 9]
+2024-04-03 10:40:49.548 [main] INFO  io.dingodb.hatest.TestHA - raft节点:172.20.3.219:20101
+2024-04-03 10:40:49.651 [main] INFO  io.dingodb.hatest.TestHA - raft节点172.20.3.219:20101->[15, 15, 15, 11, 9]
+2024-04-03 10:40:49.651 [main] INFO  io.dingodb.hatest.TestHA - raft节点:172.20.3.15:20101
+2024-04-03 10:40:49.752 [main] INFO  io.dingodb.hatest.TestHA - raft节点172.20.3.15:20101->[15, 15, 15, 11, 9]
+2024-04-03 10:40:49.752 [main] INFO  io.dingodb.hatest.TestHA - 标量索引--SQLHA_002_MIXINDEX001.BIRTHDAY_INDEX--[[15, 15, 15, 11, 9], [15, 15, 15, 11, 9], [15, 15, 15, 11, 9]]
+2024-04-03 10:40:49.752 [main] INFO  io.dingodb.hatest.TestHA - raft节点:172.20.3.13:20101
+2024-04-03 10:40:49.773 [main] INFO  io.dingodb.hatest.TestHA - raft节点172.20.3.13:20101->[19]
+2024-04-03 10:40:49.773 [main] INFO  io.dingodb.hatest.TestHA - raft节点:172.20.3.219:20101
+2024-04-03 10:40:49.793 [main] INFO  io.dingodb.hatest.TestHA - raft节点172.20.3.219:20101->[19]
+2024-04-03 10:40:49.793 [main] INFO  io.dingodb.hatest.TestHA - raft节点:172.20.3.15:20101
+2024-04-03 10:40:49.814 [main] INFO  io.dingodb.hatest.TestHA - raft节点172.20.3.15:20101->[19]
+2024-04-03 10:40:49.815 [main] INFO  io.dingodb.hatest.TestHA - 标量索引--SQLHA_002_MIXINDEX001.AGE_INDEX--[[19], [19], [19]]
+2024-04-03 10:40:49.815 [main] INFO  io.dingodb.hatest.TestHA - ================================================
+2024-04-03 10:40:49.815 [main] INFO  io.dingodb.hatest.TestHA - 验证向量索引的raft已提交日志一致
+2024-04-03 10:40:52.874 [main] INFO  io.dingodb.hatest.TestHA - 向量索引partition和region: {SQLHA_002_MIXINDEX001.FEATURE_INDEX=[60076\[80049\], 60077\[80050\], 60078\[80051\], 60079\[80052\], 60080\[80053\]]}
+2024-04-03 10:40:52.874 [main] INFO  io.dingodb.hatest.TestHA - raft节点:172.20.3.13:21101
+2024-04-03 10:40:52.978 [main] INFO  io.dingodb.hatest.TestHA - raft节点172.20.3.13:21101->[17, 15, 11, 13, 9]
+2024-04-03 10:40:52.979 [main] INFO  io.dingodb.hatest.TestHA - raft节点:172.20.3.219:21101
+2024-04-03 10:40:53.094 [main] INFO  io.dingodb.hatest.TestHA - raft节点172.20.3.219:21101->[17, 15, 11, 13, 9]
+2024-04-03 10:40:53.094 [main] INFO  io.dingodb.hatest.TestHA - raft节点:172.20.3.15:21101
+2024-04-03 10:40:53.215 [main] INFO  io.dingodb.hatest.TestHA - raft节点172.20.3.15:21101->[17, 15, 11, 13, 9]
+2024-04-03 10:40:53.215 [main] INFO  io.dingodb.hatest.TestHA - 向量索引--SQLHA_002_MIXINDEX001.FEATURE_INDEX--[[17, 15, 11, 13, 9], [17, 15, 11, 13, 9], [17, 15, 11, 13, 9]]
+2024-04-03 10:40:53.215 [main] INFO  io.dingodb.hatest.TestHA - coordinator再次启动的场景的表操作的raft一致性验证完毕,删除脚本
+2024-04-03 10:40:53.419 [main] INFO  io.dingodb.hatest.TestHA - -----------------------------------------------------------------------------------------------
+2024-04-03 10:40:53.419 [main] INFO  io.dingodb.hatest.TestHA - 测试用例ID： sqlha_003
+2024-04-03 10:40:58.777 [main] INFO  io.dingodb.hatest.TestHA - 验证表的raft已提交日志一致。
+2024-04-03 10:41:01.815 [main] INFO  io.dingodb.hatest.TestHA - 表partition和region: [60082\[80054\], 60083\[80055\], 60084\[80056\]]
+2024-04-03 10:41:01.815 [main] INFO  io.dingodb.hatest.TestHA - raft节点:172.20.3.13:20101
+2024-04-03 10:41:01.880 [main] INFO  io.dingodb.hatest.TestHA - raft节点172.20.3.13:20101->[6, 3, 7]
+2024-04-03 10:41:01.880 [main] INFO  io.dingodb.hatest.TestHA - raft节点:172.20.3.219:20101
+2024-04-03 10:41:01.948 [main] INFO  io.dingodb.hatest.TestHA - raft节点172.20.3.219:20101->[6, 3, 7]
+2024-04-03 10:41:01.948 [main] INFO  io.dingodb.hatest.TestHA - raft节点:172.20.3.15:20101
+2024-04-03 10:41:02.014 [main] INFO  io.dingodb.hatest.TestHA - raft节点172.20.3.15:20101->[6, 3, 7]
+2024-04-03 10:41:02.014 [main] INFO  io.dingodb.hatest.TestHA - 每个节点的table_last_commit_index: [[6, 3, 7], [6, 3, 7], [6, 3, 7]]
+2024-04-03 10:41:02.014 [main] INFO  io.dingodb.hatest.TestHA - ================================================
+2024-04-03 10:41:02.014 [main] INFO  io.dingodb.hatest.TestHA - 验证标量索引的raft已提交日志一致
+2024-04-03 10:41:05.056 [main] INFO  io.dingodb.hatest.TestHA - 标量索引partition和region: {SQLHA_003_MIXINDEX001.NAME_INDEX=[60088\[80058\], 60089\[80059\], 60090\[80060\], 60091\[80061\]], SQLHA_003_MIXINDEX001.BIRTHDAY_INDEX=[60093\[80062\], 60094\[80063\], 60095\[80064\], 60096\[80065\], 60097\[80066\]], SQLHA_003_MIXINDEX001.AGE_INDEX=[60086\[80057\]]}
+2024-04-03 10:41:05.056 [main] INFO  io.dingodb.hatest.TestHA - raft节点:172.20.3.13:20101
+2024-04-03 10:41:05.141 [main] INFO  io.dingodb.hatest.TestHA - raft节点172.20.3.13:20101->[5, 5, 5, 5]
+2024-04-03 10:41:05.141 [main] INFO  io.dingodb.hatest.TestHA - raft节点:172.20.3.219:20101
+2024-04-03 10:41:05.227 [main] INFO  io.dingodb.hatest.TestHA - raft节点172.20.3.219:20101->[5, 5, 5, 5]
+2024-04-03 10:41:05.228 [main] INFO  io.dingodb.hatest.TestHA - raft节点:172.20.3.15:20101
+2024-04-03 10:41:05.313 [main] INFO  io.dingodb.hatest.TestHA - raft节点172.20.3.15:20101->[5, 5, 5, 5]
+2024-04-03 10:41:05.313 [main] INFO  io.dingodb.hatest.TestHA - 标量索引--SQLHA_003_MIXINDEX001.NAME_INDEX--[[5, 5, 5, 5], [5, 5, 5, 5], [5, 5, 5, 5]]
+2024-04-03 10:41:05.313 [main] INFO  io.dingodb.hatest.TestHA - raft节点:172.20.3.13:20101
+2024-04-03 10:41:05.421 [main] INFO  io.dingodb.hatest.TestHA - raft节点172.20.3.13:20101->[5, 5, 5, 5, 5]
+2024-04-03 10:41:05.421 [main] INFO  io.dingodb.hatest.TestHA - raft节点:172.20.3.219:20101
+2024-04-03 10:41:05.535 [main] INFO  io.dingodb.hatest.TestHA - raft节点172.20.3.219:20101->[5, 5, 5, 5, 5]
+2024-04-03 10:41:05.536 [main] INFO  io.dingodb.hatest.TestHA - raft节点:172.20.3.15:20101
+2024-04-03 10:41:05.662 [main] INFO  io.dingodb.hatest.TestHA - raft节点172.20.3.15:20101->[5, 5, 5, 5, 5]
+2024-04-03 10:41:05.662 [main] INFO  io.dingodb.hatest.TestHA - 标量索引--SQLHA_003_MIXINDEX001.BIRTHDAY_INDEX--[[5, 5, 5, 5, 5], [5, 5, 5, 5, 5], [5, 5, 5, 5, 5]]
+2024-04-03 10:41:05.662 [main] INFO  io.dingodb.hatest.TestHA - raft节点:172.20.3.13:20101
+2024-04-03 10:41:05.705 [main] INFO  io.dingodb.hatest.TestHA - raft节点172.20.3.13:20101->[5]
+2024-04-03 10:41:05.705 [main] INFO  io.dingodb.hatest.TestHA - raft节点:172.20.3.219:20101
+2024-04-03 10:41:05.733 [main] INFO  io.dingodb.hatest.TestHA - raft节点172.20.3.219:20101->[5]
+2024-04-03 10:41:05.734 [main] INFO  io.dingodb.hatest.TestHA - raft节点:172.20.3.15:20101
+2024-04-03 10:41:05.761 [main] INFO  io.dingodb.hatest.TestHA - raft节点172.20.3.15:20101->[5]
+2024-04-03 10:41:05.761 [main] INFO  io.dingodb.hatest.TestHA - 标量索引--SQLHA_003_MIXINDEX001.AGE_INDEX--[[5], [5], [5]]
+2024-04-03 10:41:05.761 [main] INFO  io.dingodb.hatest.TestHA - ================================================
+2024-04-03 10:41:05.761 [main] INFO  io.dingodb.hatest.TestHA - 验证向量索引的raft已提交日志一致
+2024-04-03 10:41:08.813 [main] INFO  io.dingodb.hatest.TestHA - 向量索引partition和region: {SQLHA_003_MIXINDEX001.FEATURE_INDEX=[60099\[80067\], 60100\[80068\], 60101\[80069\], 60102\[80070\], 60103\[80071\]]}
+2024-04-03 10:41:08.813 [main] INFO  io.dingodb.hatest.TestHA - raft节点:172.20.3.13:21101
+2024-04-03 10:41:08.920 [main] INFO  io.dingodb.hatest.TestHA - raft节点172.20.3.13:21101->[5, 5, 5, 5, 5]
+2024-04-03 10:41:08.920 [main] INFO  io.dingodb.hatest.TestHA - raft节点:172.20.3.219:21101
+2024-04-03 10:41:09.031 [main] INFO  io.dingodb.hatest.TestHA - raft节点172.20.3.219:21101->[5, 5, 5, 5, 5]
+2024-04-03 10:41:09.032 [main] INFO  io.dingodb.hatest.TestHA - raft节点:172.20.3.15:21101
+2024-04-03 10:41:09.164 [main] INFO  io.dingodb.hatest.TestHA - raft节点172.20.3.15:21101->[5, 5, 5, 5, 5]
+2024-04-03 10:41:09.164 [main] INFO  io.dingodb.hatest.TestHA - 向量索引--SQLHA_003_MIXINDEX001.FEATURE_INDEX--[[5, 5, 5, 5, 5], [5, 5, 5, 5, 5], [5, 5, 5, 5, 5]]
+2024-04-03 10:41:09.164 [main] INFO  io.dingodb.hatest.TestHA - 表和索引raft验证完毕！
+2024-04-03 10:41:14.254 [main] INFO  io.dingodb.hatest.TestHA - +++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+2024-04-03 10:41:14.254 [main] INFO  io.dingodb.hatest.TestHA - 验证停止store后DML操作的raft一致性
+2024-04-03 10:41:32.048 [main] INFO  io.dingodb.hatest.TestHA - 验证表的raft已提交日志一致。
+2024-04-03 10:41:35.086 [main] INFO  io.dingodb.hatest.TestHA - 表partition和region: [60082\[80054\], 60083\[80055\], 60084\[80056\]]
+2024-04-03 10:41:35.086 [main] INFO  io.dingodb.hatest.TestHA - raft节点:172.20.3.13:20101
+2024-04-03 10:41:35.149 [main] INFO  io.dingodb.hatest.TestHA - raft节点172.20.3.13:20101->[18, 8, 17]
+2024-04-03 10:41:35.149 [main] INFO  io.dingodb.hatest.TestHA - raft节点:172.20.3.219:20101
+2024-04-03 10:41:35.211 [main] INFO  io.dingodb.hatest.TestHA - raft节点172.20.3.219:20101->[18, 8, 17]
+2024-04-03 10:41:35.211 [main] INFO  io.dingodb.hatest.TestHA - 每个节点的table_last_commit_index: [[18, 8, 17], [18, 8, 17]]
+2024-04-03 10:41:35.211 [main] INFO  io.dingodb.hatest.TestHA - ================================================
+2024-04-03 10:41:35.211 [main] INFO  io.dingodb.hatest.TestHA - 验证标量索引的raft已提交日志一致
+2024-04-03 10:41:38.279 [main] INFO  io.dingodb.hatest.TestHA - 标量索引partition和region: {SQLHA_003_MIXINDEX001.NAME_INDEX=[60088\[80058\], 60089\[80059\], 60090\[80060\], 60091\[80061\]], SQLHA_003_MIXINDEX001.BIRTHDAY_INDEX=[60093\[80062\], 60094\[80063\], 60095\[80064\], 60096\[80065\], 60097\[80066\]], SQLHA_003_MIXINDEX001.AGE_INDEX=[60086\[80057\]]}
+2024-04-03 10:41:38.279 [main] INFO  io.dingodb.hatest.TestHA - raft节点:172.20.3.13:20101
+2024-04-03 10:41:38.363 [main] INFO  io.dingodb.hatest.TestHA - raft节点172.20.3.13:20101->[9, 12, 14, 9]
+2024-04-03 10:41:38.364 [main] INFO  io.dingodb.hatest.TestHA - raft节点:172.20.3.219:20101
+2024-04-03 10:41:38.447 [main] INFO  io.dingodb.hatest.TestHA - raft节点172.20.3.219:20101->[9, 12, 14, 9]
+2024-04-03 10:41:38.447 [main] INFO  io.dingodb.hatest.TestHA - 标量索引--SQLHA_003_MIXINDEX001.NAME_INDEX--[[9, 12, 14, 9], [9, 12, 14, 9]]
+2024-04-03 10:41:38.448 [main] INFO  io.dingodb.hatest.TestHA - raft节点:172.20.3.13:20101
+2024-04-03 10:41:38.552 [main] INFO  io.dingodb.hatest.TestHA - raft节点172.20.3.13:20101->[13, 11, 11, 12, 11]
+2024-04-03 10:41:38.552 [main] INFO  io.dingodb.hatest.TestHA - raft节点:172.20.3.219:20101
+2024-04-03 10:41:38.656 [main] INFO  io.dingodb.hatest.TestHA - raft节点172.20.3.219:20101->[13, 11, 11, 12, 11]
+2024-04-03 10:41:38.656 [main] INFO  io.dingodb.hatest.TestHA - 标量索引--SQLHA_003_MIXINDEX001.BIRTHDAY_INDEX--[[13, 11, 11, 12, 11], [13, 11, 11, 12, 11]]
+2024-04-03 10:41:38.656 [main] INFO  io.dingodb.hatest.TestHA - raft节点:172.20.3.13:20101
+2024-04-03 10:41:38.677 [main] INFO  io.dingodb.hatest.TestHA - raft节点172.20.3.13:20101->[14]
+2024-04-03 10:41:38.677 [main] INFO  io.dingodb.hatest.TestHA - raft节点:172.20.3.219:20101
+2024-04-03 10:41:38.698 [main] INFO  io.dingodb.hatest.TestHA - raft节点172.20.3.219:20101->[14]
+2024-04-03 10:41:38.698 [main] INFO  io.dingodb.hatest.TestHA - 标量索引--SQLHA_003_MIXINDEX001.AGE_INDEX--[[14], [14]]
+2024-04-03 10:41:38.699 [main] INFO  io.dingodb.hatest.TestHA - ================================================
+2024-04-03 10:41:38.699 [main] INFO  io.dingodb.hatest.TestHA - 验证向量索引的raft已提交日志一致
+2024-04-03 10:41:41.725 [main] INFO  io.dingodb.hatest.TestHA - 向量索引partition和region: {SQLHA_003_MIXINDEX001.FEATURE_INDEX=[60099\[80067\], 60100\[80068\], 60101\[80069\], 60102\[80070\], 60103\[80071\]]}
+2024-04-03 10:41:41.725 [main] INFO  io.dingodb.hatest.TestHA - raft节点:172.20.3.13:21101
+2024-04-03 10:41:41.834 [main] INFO  io.dingodb.hatest.TestHA - raft节点172.20.3.13:21101->[13, 9, 9, 11, 9]
+2024-04-03 10:41:41.834 [main] INFO  io.dingodb.hatest.TestHA - raft节点:172.20.3.219:21101
+2024-04-03 10:41:41.965 [main] INFO  io.dingodb.hatest.TestHA - raft节点172.20.3.219:21101->[13, 9, 9, 11, 9]
+2024-04-03 10:41:41.965 [main] INFO  io.dingodb.hatest.TestHA - raft节点:172.20.3.15:21101
+2024-04-03 10:41:42.068 [main] INFO  io.dingodb.hatest.TestHA - raft节点172.20.3.15:21101->[13, 9, 9, 11, 9]
+2024-04-03 10:41:42.069 [main] INFO  io.dingodb.hatest.TestHA - 向量索引--SQLHA_003_MIXINDEX001.FEATURE_INDEX--[[13, 9, 9, 11, 9], [13, 9, 9, 11, 9], [13, 9, 9, 11, 9]]
+2024-04-03 10:41:42.069 [main] INFO  io.dingodb.hatest.TestHA - store的停止场景的表操作的raft一致性验证完毕,删除脚本
+2024-04-03 10:41:48.280 [main] INFO  io.dingodb.hatest.TestHA - +++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+2024-04-03 10:41:48.280 [main] INFO  io.dingodb.hatest.TestHA - 验证启动store后DML操作的raft一致性
+2024-04-03 10:41:51.979 [main] INFO  io.dingodb.hatest.TestHA - 验证表的raft已提交日志一致。
+2024-04-03 10:41:55.033 [main] INFO  io.dingodb.hatest.TestHA - 表partition和region: [60082\[80054\], 60083\[80055\], 60084\[80056\]]
+2024-04-03 10:41:55.033 [main] INFO  io.dingodb.hatest.TestHA - raft节点:172.20.3.13:20101
+2024-04-03 10:41:55.096 [main] INFO  io.dingodb.hatest.TestHA - raft节点172.20.3.13:20101->[18, 12, 25]
+2024-04-03 10:41:55.096 [main] INFO  io.dingodb.hatest.TestHA - raft节点:172.20.3.219:20101
+2024-04-03 10:41:55.159 [main] INFO  io.dingodb.hatest.TestHA - raft节点172.20.3.219:20101->[18, 12, 25]
+2024-04-03 10:41:55.159 [main] INFO  io.dingodb.hatest.TestHA - raft节点:172.20.3.15:20101
+2024-04-03 10:41:55.233 [main] INFO  io.dingodb.hatest.TestHA - raft节点172.20.3.15:20101->[18, 12, 25]
+2024-04-03 10:41:55.233 [main] INFO  io.dingodb.hatest.TestHA - 每个节点的table_last_commit_index: [[18, 12, 25], [18, 12, 25], [18, 12, 25]]
+2024-04-03 10:41:55.233 [main] INFO  io.dingodb.hatest.TestHA - ================================================
+2024-04-03 10:41:55.233 [main] INFO  io.dingodb.hatest.TestHA - 验证标量索引的raft已提交日志一致
+2024-04-03 10:41:58.290 [main] INFO  io.dingodb.hatest.TestHA - 标量索引partition和region: {SQLHA_003_MIXINDEX001.NAME_INDEX=[60088\[80058\], 60089\[80059\], 60090\[80060\], 60091\[80061\]], SQLHA_003_MIXINDEX001.BIRTHDAY_INDEX=[60093\[80062\], 60094\[80063\], 60095\[80064\], 60096\[80065\], 60097\[80066\]], SQLHA_003_MIXINDEX001.AGE_INDEX=[60086\[80057\]]}
+2024-04-03 10:41:58.290 [main] INFO  io.dingodb.hatest.TestHA - raft节点:172.20.3.13:20101
+2024-04-03 10:41:58.371 [main] INFO  io.dingodb.hatest.TestHA - raft节点172.20.3.13:20101->[13, 14, 18, 13]
+2024-04-03 10:41:58.371 [main] INFO  io.dingodb.hatest.TestHA - raft节点:172.20.3.219:20101
+2024-04-03 10:41:58.454 [main] INFO  io.dingodb.hatest.TestHA - raft节点172.20.3.219:20101->[13, 14, 18, 13]
+2024-04-03 10:41:58.454 [main] INFO  io.dingodb.hatest.TestHA - raft节点:172.20.3.15:20101
+2024-04-03 10:41:58.535 [main] INFO  io.dingodb.hatest.TestHA - raft节点172.20.3.15:20101->[13, 14, 18, 13]
+2024-04-03 10:41:58.535 [main] INFO  io.dingodb.hatest.TestHA - 标量索引--SQLHA_003_MIXINDEX001.NAME_INDEX--[[13, 14, 18, 13], [13, 14, 18, 13], [13, 14, 18, 13]]
+2024-04-03 10:41:58.535 [main] INFO  io.dingodb.hatest.TestHA - raft节点:172.20.3.13:20101
+2024-04-03 10:41:58.636 [main] INFO  io.dingodb.hatest.TestHA - raft节点172.20.3.13:20101->[13, 11, 15, 14, 15]
+2024-04-03 10:41:58.636 [main] INFO  io.dingodb.hatest.TestHA - raft节点:172.20.3.219:20101
+2024-04-03 10:41:58.765 [main] INFO  io.dingodb.hatest.TestHA - raft节点172.20.3.219:20101->[13, 11, 15, 14, 15]
+2024-04-03 10:41:58.765 [main] INFO  io.dingodb.hatest.TestHA - raft节点:172.20.3.15:20101
+2024-04-03 10:41:58.872 [main] INFO  io.dingodb.hatest.TestHA - raft节点172.20.3.15:20101->[13, 11, 15, 14, 15]
+2024-04-03 10:41:58.872 [main] INFO  io.dingodb.hatest.TestHA - 标量索引--SQLHA_003_MIXINDEX001.BIRTHDAY_INDEX--[[13, 11, 15, 14, 15], [13, 11, 15, 14, 15], [13, 11, 15, 14, 15]]
+2024-04-03 10:41:58.872 [main] INFO  io.dingodb.hatest.TestHA - raft节点:172.20.3.13:20101
+2024-04-03 10:41:58.892 [main] INFO  io.dingodb.hatest.TestHA - raft节点172.20.3.13:20101->[20]
+2024-04-03 10:41:58.892 [main] INFO  io.dingodb.hatest.TestHA - raft节点:172.20.3.219:20101
+2024-04-03 10:41:58.912 [main] INFO  io.dingodb.hatest.TestHA - raft节点172.20.3.219:20101->[20]
+2024-04-03 10:41:58.912 [main] INFO  io.dingodb.hatest.TestHA - raft节点:172.20.3.15:20101
+2024-04-03 10:41:58.933 [main] INFO  io.dingodb.hatest.TestHA - raft节点172.20.3.15:20101->[20]
+2024-04-03 10:41:58.933 [main] INFO  io.dingodb.hatest.TestHA - 标量索引--SQLHA_003_MIXINDEX001.AGE_INDEX--[[20], [20], [20]]
+2024-04-03 10:41:58.933 [main] INFO  io.dingodb.hatest.TestHA - ================================================
+2024-04-03 10:41:58.933 [main] INFO  io.dingodb.hatest.TestHA - 验证向量索引的raft已提交日志一致
+2024-04-03 10:42:01.984 [main] INFO  io.dingodb.hatest.TestHA - 向量索引partition和region: {SQLHA_003_MIXINDEX001.FEATURE_INDEX=[60099\[80067\], 60100\[80068\], 60101\[80069\], 60102\[80070\], 60103\[80071\]]}
+2024-04-03 10:42:01.984 [main] INFO  io.dingodb.hatest.TestHA - raft节点:172.20.3.13:21101
+2024-04-03 10:42:02.096 [main] INFO  io.dingodb.hatest.TestHA - raft节点172.20.3.13:21101->[15, 13, 9, 13, 11]
+2024-04-03 10:42:02.096 [main] INFO  io.dingodb.hatest.TestHA - raft节点:172.20.3.219:21101
+2024-04-03 10:42:02.213 [main] INFO  io.dingodb.hatest.TestHA - raft节点172.20.3.219:21101->[15, 13, 9, 13, 11]
+2024-04-03 10:42:02.214 [main] INFO  io.dingodb.hatest.TestHA - raft节点:172.20.3.15:21101
+2024-04-03 10:42:02.381 [main] INFO  io.dingodb.hatest.TestHA - raft节点172.20.3.15:21101->[15, 13, 9, 13, 11]
+2024-04-03 10:42:02.381 [main] INFO  io.dingodb.hatest.TestHA - 向量索引--SQLHA_003_MIXINDEX001.FEATURE_INDEX--[[15, 13, 9, 13, 11], [15, 13, 9, 13, 11], [15, 13, 9, 13, 11]]
+2024-04-03 10:42:02.381 [main] INFO  io.dingodb.hatest.TestHA - store的启动场景的表操作的raft一致性验证完毕,删除脚本
+2024-04-03 10:42:02.585 [main] INFO  io.dingodb.hatest.TestHA - -----------------------------------------------------------------------------------------------
+2024-04-03 10:42:02.585 [main] INFO  io.dingodb.hatest.TestHA - 测试用例ID： sqlha_004
+2024-04-03 10:42:07.729 [main] INFO  io.dingodb.hatest.TestHA - 验证表的raft已提交日志一致。
+2024-04-03 10:42:10.766 [main] INFO  io.dingodb.hatest.TestHA - 表partition和region: [60105\[80072\], 60106\[80073\], 60107\[80074\]]
+2024-04-03 10:42:10.766 [main] INFO  io.dingodb.hatest.TestHA - raft节点:172.20.3.13:20101
+2024-04-03 10:42:10.832 [main] INFO  io.dingodb.hatest.TestHA - raft节点172.20.3.13:20101->[6, 3, 7]
+2024-04-03 10:42:10.832 [main] INFO  io.dingodb.hatest.TestHA - raft节点:172.20.3.219:20101
+2024-04-03 10:42:10.896 [main] INFO  io.dingodb.hatest.TestHA - raft节点172.20.3.219:20101->[6, 3, 7]
+2024-04-03 10:42:10.896 [main] INFO  io.dingodb.hatest.TestHA - raft节点:172.20.3.15:20101
+2024-04-03 10:42:10.977 [main] INFO  io.dingodb.hatest.TestHA - raft节点172.20.3.15:20101->[6, 3, 7]
+2024-04-03 10:42:10.977 [main] INFO  io.dingodb.hatest.TestHA - 每个节点的table_last_commit_index: [[6, 3, 7], [6, 3, 7], [6, 3, 7]]
+2024-04-03 10:42:10.977 [main] INFO  io.dingodb.hatest.TestHA - ================================================
+2024-04-03 10:42:10.977 [main] INFO  io.dingodb.hatest.TestHA - 验证标量索引的raft已提交日志一致
+2024-04-03 10:42:14.033 [main] INFO  io.dingodb.hatest.TestHA - 标量索引partition和region: {SQLHA_004_MIXINDEX001.BIRTHDAY_INDEX=[60116\[80080\], 60117\[80081\], 60118\[80082\], 60119\[80083\], 60120\[80084\]], SQLHA_004_MIXINDEX001.AGE_INDEX=[60109\[80075\]], SQLHA_004_MIXINDEX001.NAME_INDEX=[60111\[80076\], 60112\[80077\], 60113\[80078\], 60114\[80079\]]}
+2024-04-03 10:42:14.033 [main] INFO  io.dingodb.hatest.TestHA - raft节点:172.20.3.13:20101
+2024-04-03 10:42:14.166 [main] INFO  io.dingodb.hatest.TestHA - raft节点172.20.3.13:20101->[3, 5, 5, 5, 5]
+2024-04-03 10:42:14.166 [main] INFO  io.dingodb.hatest.TestHA - raft节点:172.20.3.219:20101
+2024-04-03 10:42:14.274 [main] INFO  io.dingodb.hatest.TestHA - raft节点172.20.3.219:20101->[3, 5, 5, 5, 5]
+2024-04-03 10:42:14.274 [main] INFO  io.dingodb.hatest.TestHA - raft节点:172.20.3.15:20101
+2024-04-03 10:42:14.379 [main] INFO  io.dingodb.hatest.TestHA - raft节点172.20.3.15:20101->[3, 5, 5, 5, 5]
+2024-04-03 10:42:14.379 [main] INFO  io.dingodb.hatest.TestHA - 标量索引--SQLHA_004_MIXINDEX001.BIRTHDAY_INDEX--[[3, 5, 5, 5, 5], [3, 5, 5, 5, 5], [3, 5, 5, 5, 5]]
+2024-04-03 10:42:14.379 [main] INFO  io.dingodb.hatest.TestHA - raft节点:172.20.3.13:20101
+2024-04-03 10:42:14.400 [main] INFO  io.dingodb.hatest.TestHA - raft节点172.20.3.13:20101->[5]
+2024-04-03 10:42:14.400 [main] INFO  io.dingodb.hatest.TestHA - raft节点:172.20.3.219:20101
+2024-04-03 10:42:14.421 [main] INFO  io.dingodb.hatest.TestHA - raft节点172.20.3.219:20101->[5]
+2024-04-03 10:42:14.421 [main] INFO  io.dingodb.hatest.TestHA - raft节点:172.20.3.15:20101
+2024-04-03 10:42:14.442 [main] INFO  io.dingodb.hatest.TestHA - raft节点172.20.3.15:20101->[5]
+2024-04-03 10:42:14.442 [main] INFO  io.dingodb.hatest.TestHA - 标量索引--SQLHA_004_MIXINDEX001.AGE_INDEX--[[5], [5], [5]]
+2024-04-03 10:42:14.442 [main] INFO  io.dingodb.hatest.TestHA - raft节点:172.20.3.13:20101
+2024-04-03 10:42:14.527 [main] INFO  io.dingodb.hatest.TestHA - raft节点172.20.3.13:20101->[5, 5, 5, 5]
+2024-04-03 10:42:14.527 [main] INFO  io.dingodb.hatest.TestHA - raft节点:172.20.3.219:20101
+2024-04-03 10:42:14.612 [main] INFO  io.dingodb.hatest.TestHA - raft节点172.20.3.219:20101->[5, 5, 5, 5]
+2024-04-03 10:42:14.612 [main] INFO  io.dingodb.hatest.TestHA - raft节点:172.20.3.15:20101
+2024-04-03 10:42:14.695 [main] INFO  io.dingodb.hatest.TestHA - raft节点172.20.3.15:20101->[5, 5, 5, 5]
+2024-04-03 10:42:14.695 [main] INFO  io.dingodb.hatest.TestHA - 标量索引--SQLHA_004_MIXINDEX001.NAME_INDEX--[[5, 5, 5, 5], [5, 5, 5, 5], [5, 5, 5, 5]]
+2024-04-03 10:42:14.695 [main] INFO  io.dingodb.hatest.TestHA - ================================================
+2024-04-03 10:42:14.695 [main] INFO  io.dingodb.hatest.TestHA - 验证向量索引的raft已提交日志一致
+2024-04-03 10:42:17.745 [main] INFO  io.dingodb.hatest.TestHA - 向量索引partition和region: {SQLHA_004_MIXINDEX001.FEATURE_INDEX=[60122\[80085\], 60123\[80086\], 60124\[80087\], 60125\[80088\], 60126\[80089\]]}
+2024-04-03 10:42:17.745 [main] INFO  io.dingodb.hatest.TestHA - raft节点:172.20.3.13:21101
+2024-04-03 10:42:17.858 [main] INFO  io.dingodb.hatest.TestHA - raft节点172.20.3.13:21101->[5, 5, 5, 5, 5]
+2024-04-03 10:42:17.858 [main] INFO  io.dingodb.hatest.TestHA - raft节点:172.20.3.219:21101
+2024-04-03 10:42:17.971 [main] INFO  io.dingodb.hatest.TestHA - raft节点172.20.3.219:21101->[5, 5, 5, 5, 5]
+2024-04-03 10:42:17.971 [main] INFO  io.dingodb.hatest.TestHA - raft节点:172.20.3.15:21101
+2024-04-03 10:42:18.119 [main] INFO  io.dingodb.hatest.TestHA - raft节点172.20.3.15:21101->[5, 5, 5, 5, 5]
+2024-04-03 10:42:18.119 [main] INFO  io.dingodb.hatest.TestHA - 向量索引--SQLHA_004_MIXINDEX001.FEATURE_INDEX--[[5, 5, 5, 5, 5], [5, 5, 5, 5, 5], [5, 5, 5, 5, 5]]
+2024-04-03 10:42:18.119 [main] INFO  io.dingodb.hatest.TestHA - 表和索引raft验证完毕！
+2024-04-03 10:42:23.161 [main] INFO  io.dingodb.hatest.TestHA - +++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+2024-04-03 10:42:23.162 [main] INFO  io.dingodb.hatest.TestHA - 验证停止index后DML操作的raft一致性
+2024-04-03 10:42:51.827 [main] INFO  io.dingodb.hatest.TestHA - 验证表的raft已提交日志一致。
+2024-04-03 10:42:54.859 [main] INFO  io.dingodb.hatest.TestHA - 表partition和region: [60105\[80072\], 60106\[80073\], 60107\[80074\]]
+2024-04-03 10:42:54.859 [main] INFO  io.dingodb.hatest.TestHA - raft节点:172.20.3.13:20101
+2024-04-03 10:42:54.921 [main] INFO  io.dingodb.hatest.TestHA - raft节点172.20.3.13:20101->[37, 7, 17]
+2024-04-03 10:42:54.921 [main] INFO  io.dingodb.hatest.TestHA - raft节点:172.20.3.219:20101
+2024-04-03 10:42:54.994 [main] INFO  io.dingodb.hatest.TestHA - raft节点172.20.3.219:20101->[37, 7, 17]
+2024-04-03 10:42:54.994 [main] INFO  io.dingodb.hatest.TestHA - raft节点:172.20.3.15:20101
+2024-04-03 10:42:55.057 [main] INFO  io.dingodb.hatest.TestHA - raft节点172.20.3.15:20101->[37, 7, 17]
+2024-04-03 10:42:55.057 [main] INFO  io.dingodb.hatest.TestHA - 每个节点的table_last_commit_index: [[37, 7, 17], [37, 7, 17], [37, 7, 17]]
+2024-04-03 10:42:55.057 [main] INFO  io.dingodb.hatest.TestHA - ================================================
+2024-04-03 10:42:55.057 [main] INFO  io.dingodb.hatest.TestHA - 验证标量索引的raft已提交日志一致
+2024-04-03 10:42:58.103 [main] INFO  io.dingodb.hatest.TestHA - 标量索引partition和region: {SQLHA_004_MIXINDEX001.BIRTHDAY_INDEX=[60116\[80080\], 60117\[80081\], 60118\[80082\], 60119\[80083\], 60120\[80084\]], SQLHA_004_MIXINDEX001.AGE_INDEX=[60109\[80075\]], SQLHA_004_MIXINDEX001.NAME_INDEX=[60111\[80076\], 60112\[80077\], 60113\[80078\], 60114\[80079\]]}
+2024-04-03 10:42:58.103 [main] INFO  io.dingodb.hatest.TestHA - raft节点:172.20.3.13:20101
+2024-04-03 10:42:58.203 [main] INFO  io.dingodb.hatest.TestHA - raft节点172.20.3.13:20101->[9, 9, 11, 11, 13]
+2024-04-03 10:42:58.203 [main] INFO  io.dingodb.hatest.TestHA - raft节点:172.20.3.219:20101
+2024-04-03 10:42:58.304 [main] INFO  io.dingodb.hatest.TestHA - raft节点172.20.3.219:20101->[9, 9, 11, 11, 13]
+2024-04-03 10:42:58.305 [main] INFO  io.dingodb.hatest.TestHA - raft节点:172.20.3.15:20101
+2024-04-03 10:42:58.415 [main] INFO  io.dingodb.hatest.TestHA - raft节点172.20.3.15:20101->[9, 9, 11, 11, 13]
+2024-04-03 10:42:58.415 [main] INFO  io.dingodb.hatest.TestHA - 标量索引--SQLHA_004_MIXINDEX001.BIRTHDAY_INDEX--[[9, 9, 11, 11, 13], [9, 9, 11, 11, 13], [9, 9, 11, 11, 13]]
+2024-04-03 10:42:58.415 [main] INFO  io.dingodb.hatest.TestHA - raft节点:172.20.3.13:20101
+2024-04-03 10:42:58.436 [main] INFO  io.dingodb.hatest.TestHA - raft节点172.20.3.13:20101->[13]
+2024-04-03 10:42:58.436 [main] INFO  io.dingodb.hatest.TestHA - raft节点:172.20.3.219:20101
+2024-04-03 10:42:58.459 [main] INFO  io.dingodb.hatest.TestHA - raft节点172.20.3.219:20101->[13]
+2024-04-03 10:42:58.459 [main] INFO  io.dingodb.hatest.TestHA - raft节点:172.20.3.15:20101
+2024-04-03 10:42:58.481 [main] INFO  io.dingodb.hatest.TestHA - raft节点172.20.3.15:20101->[13]
+2024-04-03 10:42:58.481 [main] INFO  io.dingodb.hatest.TestHA - 标量索引--SQLHA_004_MIXINDEX001.AGE_INDEX--[[13], [13], [13]]
+2024-04-03 10:42:58.481 [main] INFO  io.dingodb.hatest.TestHA - raft节点:172.20.3.13:20101
+2024-04-03 10:42:58.602 [main] INFO  io.dingodb.hatest.TestHA - raft节点172.20.3.13:20101->[9, 11, 13, 9]
+2024-04-03 10:42:58.602 [main] INFO  io.dingodb.hatest.TestHA - raft节点:172.20.3.219:20101
+2024-04-03 10:42:58.702 [main] INFO  io.dingodb.hatest.TestHA - raft节点172.20.3.219:20101->[9, 11, 13, 9]
+2024-04-03 10:42:58.702 [main] INFO  io.dingodb.hatest.TestHA - raft节点:172.20.3.15:20101
+2024-04-03 10:42:58.783 [main] INFO  io.dingodb.hatest.TestHA - raft节点172.20.3.15:20101->[9, 11, 13, 9]
+2024-04-03 10:42:58.783 [main] INFO  io.dingodb.hatest.TestHA - 标量索引--SQLHA_004_MIXINDEX001.NAME_INDEX--[[9, 11, 13, 9], [9, 11, 13, 9], [9, 11, 13, 9]]
+2024-04-03 10:42:58.783 [main] INFO  io.dingodb.hatest.TestHA - ================================================
+2024-04-03 10:42:58.783 [main] INFO  io.dingodb.hatest.TestHA - 验证向量索引的raft已提交日志一致
+2024-04-03 10:43:01.811 [main] INFO  io.dingodb.hatest.TestHA - 向量索引partition和region: {SQLHA_004_MIXINDEX001.FEATURE_INDEX=[60122\[80085\], 60123\[80086\], 60124\[80087\], 60125\[80088\], 60126\[80089\]]}
+2024-04-03 10:43:01.812 [main] INFO  io.dingodb.hatest.TestHA - raft节点:172.20.3.13:21101
+2024-04-03 10:43:01.910 [main] INFO  io.dingodb.hatest.TestHA - raft节点172.20.3.13:21101->[14, 11, 11, 11, 9]
+2024-04-03 10:43:01.910 [main] INFO  io.dingodb.hatest.TestHA - raft节点:172.20.3.219:21101
+2024-04-03 10:43:02.013 [main] INFO  io.dingodb.hatest.TestHA - raft节点172.20.3.219:21101->[14, 11, 11, 11, 9]
+2024-04-03 10:43:02.013 [main] INFO  io.dingodb.hatest.TestHA - 向量索引--SQLHA_004_MIXINDEX001.FEATURE_INDEX--[[14, 11, 11, 11, 9], [14, 11, 11, 11, 9]]
+2024-04-03 10:43:02.013 [main] INFO  io.dingodb.hatest.TestHA - index的停止场景的表操作的raft一致性验证完毕,删除脚本
+2024-04-03 10:43:08.192 [main] INFO  io.dingodb.hatest.TestHA - +++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+2024-04-03 10:43:08.193 [main] INFO  io.dingodb.hatest.TestHA - 验证启动index后DML操作的raft一致性
+2024-04-03 10:43:11.896 [main] INFO  io.dingodb.hatest.TestHA - 验证表的raft已提交日志一致。
+2024-04-03 10:43:14.938 [main] INFO  io.dingodb.hatest.TestHA - 表partition和region: [60105\[80072\], 60106\[80073\], 60107\[80074\]]
+2024-04-03 10:43:14.938 [main] INFO  io.dingodb.hatest.TestHA - raft节点:172.20.3.13:20101
+2024-04-03 10:43:14.999 [main] INFO  io.dingodb.hatest.TestHA - raft节点172.20.3.13:20101->[37, 11, 25]
+2024-04-03 10:43:14.999 [main] INFO  io.dingodb.hatest.TestHA - raft节点:172.20.3.219:20101
+2024-04-03 10:43:15.061 [main] INFO  io.dingodb.hatest.TestHA - raft节点172.20.3.219:20101->[37, 11, 25]
+2024-04-03 10:43:15.061 [main] INFO  io.dingodb.hatest.TestHA - raft节点:172.20.3.15:20101
+2024-04-03 10:43:15.121 [main] INFO  io.dingodb.hatest.TestHA - raft节点172.20.3.15:20101->[37, 11, 25]
+2024-04-03 10:43:15.121 [main] INFO  io.dingodb.hatest.TestHA - 每个节点的table_last_commit_index: [[37, 11, 25], [37, 11, 25], [37, 11, 25]]
+2024-04-03 10:43:15.121 [main] INFO  io.dingodb.hatest.TestHA - ================================================
+2024-04-03 10:43:15.121 [main] INFO  io.dingodb.hatest.TestHA - 验证标量索引的raft已提交日志一致
+2024-04-03 10:43:18.167 [main] INFO  io.dingodb.hatest.TestHA - 标量索引partition和region: {SQLHA_004_MIXINDEX001.BIRTHDAY_INDEX=[60116\[80080\], 60117\[80081\], 60118\[80082\], 60119\[80083\], 60120\[80084\]], SQLHA_004_MIXINDEX001.AGE_INDEX=[60109\[80075\]], SQLHA_004_MIXINDEX001.NAME_INDEX=[60111\[80076\], 60112\[80077\], 60113\[80078\], 60114\[80079\]]}
+2024-04-03 10:43:18.167 [main] INFO  io.dingodb.hatest.TestHA - raft节点:172.20.3.13:20101
+2024-04-03 10:43:18.268 [main] INFO  io.dingodb.hatest.TestHA - raft节点172.20.3.13:20101->[11, 11, 13, 13, 19]
+2024-04-03 10:43:18.268 [main] INFO  io.dingodb.hatest.TestHA - raft节点:172.20.3.219:20101
+2024-04-03 10:43:18.370 [main] INFO  io.dingodb.hatest.TestHA - raft节点172.20.3.219:20101->[11, 11, 13, 13, 19]
+2024-04-03 10:43:18.370 [main] INFO  io.dingodb.hatest.TestHA - raft节点:172.20.3.15:20101
+2024-04-03 10:43:18.471 [main] INFO  io.dingodb.hatest.TestHA - raft节点172.20.3.15:20101->[11, 11, 13, 13, 19]
+2024-04-03 10:43:18.471 [main] INFO  io.dingodb.hatest.TestHA - 标量索引--SQLHA_004_MIXINDEX001.BIRTHDAY_INDEX--[[11, 11, 13, 13, 19], [11, 11, 13, 13, 19], [11, 11, 13, 13, 19]]
+2024-04-03 10:43:18.471 [main] INFO  io.dingodb.hatest.TestHA - raft节点:172.20.3.13:20101
+2024-04-03 10:43:18.491 [main] INFO  io.dingodb.hatest.TestHA - raft节点172.20.3.13:20101->[19]
+2024-04-03 10:43:18.491 [main] INFO  io.dingodb.hatest.TestHA - raft节点:172.20.3.219:20101
+2024-04-03 10:43:18.512 [main] INFO  io.dingodb.hatest.TestHA - raft节点172.20.3.219:20101->[19]
+2024-04-03 10:43:18.512 [main] INFO  io.dingodb.hatest.TestHA - raft节点:172.20.3.15:20101
+2024-04-03 10:43:18.532 [main] INFO  io.dingodb.hatest.TestHA - raft节点172.20.3.15:20101->[19]
+2024-04-03 10:43:18.532 [main] INFO  io.dingodb.hatest.TestHA - 标量索引--SQLHA_004_MIXINDEX001.AGE_INDEX--[[19], [19], [19]]
+2024-04-03 10:43:18.532 [main] INFO  io.dingodb.hatest.TestHA - raft节点:172.20.3.13:20101
+2024-04-03 10:43:18.615 [main] INFO  io.dingodb.hatest.TestHA - raft节点172.20.3.13:20101->[13, 13, 17, 13]
+2024-04-03 10:43:18.615 [main] INFO  io.dingodb.hatest.TestHA - raft节点:172.20.3.219:20101
+2024-04-03 10:43:18.696 [main] INFO  io.dingodb.hatest.TestHA - raft节点172.20.3.219:20101->[13, 13, 17, 13]
+2024-04-03 10:43:18.696 [main] INFO  io.dingodb.hatest.TestHA - raft节点:172.20.3.15:20101
+2024-04-03 10:43:18.776 [main] INFO  io.dingodb.hatest.TestHA - raft节点172.20.3.15:20101->[13, 13, 17, 13]
+2024-04-03 10:43:18.776 [main] INFO  io.dingodb.hatest.TestHA - 标量索引--SQLHA_004_MIXINDEX001.NAME_INDEX--[[13, 13, 17, 13], [13, 13, 17, 13], [13, 13, 17, 13]]
+2024-04-03 10:43:18.776 [main] INFO  io.dingodb.hatest.TestHA - ================================================
+2024-04-03 10:43:18.776 [main] INFO  io.dingodb.hatest.TestHA - 验证向量索引的raft已提交日志一致
+2024-04-03 10:43:21.818 [main] INFO  io.dingodb.hatest.TestHA - 向量索引partition和region: {SQLHA_004_MIXINDEX001.FEATURE_INDEX=[60122\[80085\], 60123\[80086\], 60124\[80087\], 60125\[80088\], 60126\[80089\]]}
+2024-04-03 10:43:21.818 [main] INFO  io.dingodb.hatest.TestHA - raft节点:172.20.3.13:21101
+2024-04-03 10:43:21.919 [main] INFO  io.dingodb.hatest.TestHA - raft节点172.20.3.13:21101->[18, 15, 13, 11, 9]
+2024-04-03 10:43:21.919 [main] INFO  io.dingodb.hatest.TestHA - raft节点:172.20.3.219:21101
+2024-04-03 10:43:22.024 [main] INFO  io.dingodb.hatest.TestHA - raft节点172.20.3.219:21101->[18, 15, 13, 11, 9]
+2024-04-03 10:43:22.024 [main] INFO  io.dingodb.hatest.TestHA - raft节点:172.20.3.15:21101
+2024-04-03 10:43:22.124 [main] INFO  io.dingodb.hatest.TestHA - raft节点172.20.3.15:21101->[18, 15, 13, 11, 9]
+2024-04-03 10:43:22.124 [main] INFO  io.dingodb.hatest.TestHA - 向量索引--SQLHA_004_MIXINDEX001.FEATURE_INDEX--[[18, 15, 13, 11, 9], [18, 15, 13, 11, 9], [18, 15, 13, 11, 9]]
+2024-04-03 10:43:22.124 [main] INFO  io.dingodb.hatest.TestHA - index的启动场景的表操作的raft一致性验证完毕,删除脚本
+2024-04-03 10:43:22.295 [main] INFO  io.dingodb.hatest.TestHA - Create table set: [sqlha_003_mixindex001, sqlha_002_mixindex001, sqlha_004_mixindex001, sqlha_001_mixindex001]
+2024-04-03 10:43:23.622 [<172.20.3.13:8765/19/client>-16] WARN  i.d.driver.client.DingoDriverClient - Connection channel closed, close connection.
+2024-04-03 10:43:23.622 [<172.20.3.13:8765/1/client>-31] WARN  i.d.driver.client.DingoDriverClient - Connection channel closed, close connection.
+2024-04-03 10:43:23.623 [<172.20.3.13:8765/37/client>-50] WARN  i.d.driver.client.DingoDriverClient - Connection channel closed, close connection.
+2024-04-03 10:43:23.623 [<172.20.3.13:8765/25/client>-52] WARN  i.d.driver.client.DingoDriverClient - Connection channel closed, close connection.
+2024-04-03 10:43:23.623 [<172.20.3.13:8765/7/client>-51] WARN  i.d.driver.client.DingoDriverClient - Connection channel closed, close connection.
+2024-04-03 10:43:23.623 [<172.20.3.13:8765/43/client>-53] WARN  i.d.driver.client.DingoDriverClient - Connection channel closed, close connection.
+2024-04-03 10:43:23.624 [<172.20.3.13:8765/13/client>-54] WARN  i.d.driver.client.DingoDriverClient - Connection channel closed, close connection.
+2024-04-03 10:43:23.624 [<172.20.3.13:8765/31/client>-55] WARN  i.d.driver.client.DingoDriverClient - Connection channel closed, close connection.
+2024-04-03 10:43:23.625 [<172.20.3.13:8765/19/client>-16] ERROR i.d.net.netty.api.RandomChannelProxy - Invoke proxy method [public abstract org.apache.calcite.avatica.remote.Service$CloseConnectionResponse io.dingodb.driver.api.DriverProxyApi.apply(org.apache.calcite.avatica.remote.Service$CloseConnectionRequest)] on [Location(host=172.20.3.13, port=8765)/307] error.
+java.util.concurrent.ExecutionException: java.lang.reflect.InvocationTargetException: Invoke on [172.20.3.13:8765] failed.
+	at java.util.concurrent.CompletableFuture.reportGet(CompletableFuture.java:357)
+	at java.util.concurrent.CompletableFuture.get(CompletableFuture.java:1915)
+	at io.dingodb.net.netty.api.ApiProxy.invoke(ApiProxy.java:96)
+	at io.dingodb.net.netty.api.RandomChannelProxy.invoke(RandomChannelProxy.java:85)
+	at com.sun.proxy.$Proxy12.apply(Unknown Source)
+	at io.dingodb.driver.ServiceInvocationHandler.apply(ServiceInvocationHandler.java:45)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at io.dingodb.driver.ServiceInvocationHandler.invoke(ServiceInvocationHandler.java:57)
+	at com.sun.proxy.$Proxy13.apply(Unknown Source)
+	at io.dingodb.driver.DingoServiceImpl.apply(DingoServiceImpl.java:34)
+	at org.apache.calcite.avatica.remote.RemoteMeta$4.call(RemoteMeta.java:125)
+	at org.apache.calcite.avatica.remote.RemoteMeta$4.call(RemoteMeta.java:122)
+	at org.apache.calcite.avatica.AvaticaConnection.invokeWithRetries(AvaticaConnection.java:795)
+	at org.apache.calcite.avatica.remote.RemoteMeta.closeConnection(RemoteMeta.java:121)
+	at org.apache.calcite.avatica.remote.DingoRemoteMeta.closeConnection(DingoRemoteMeta.java:26)
+	at org.apache.calcite.avatica.AvaticaConnection.close(AvaticaConnection.java:218)
+	at io.dingodb.driver.client.DingoDriverClient.lambda$createMeta$1(DingoDriverClient.java:223)
+	at io.dingodb.common.util.NoBreakFunctions$WrappedConsumer.accept(NoBreakFunctions.java:275)
+	at io.dingodb.net.netty.Channel.lambda$shutdown$3(Channel.java:99)
+	at io.dingodb.common.concurrent.LinkedRunner$RunnerNode.run(LinkedRunner.java:77)
+	at io.dingodb.common.concurrent.LinkedRunner.lambda$submit$2(LinkedRunner.java:120)
+	at io.dingodb.common.concurrent.Executors.run(Executors.java:213)
+	at io.dingodb.common.concurrent.Executors.lambda$wrap$10(Executors.java:168)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.lang.reflect.InvocationTargetException: Invoke on [172.20.3.13:8765] failed.
+	at io.dingodb.net.netty.api.ApiProxy.completeExceptionally(ApiProxy.java:129)
+	at io.dingodb.net.netty.api.ApiProxy.invoke(ApiProxy.java:89)
+	... 26 common frames omitted
+Caused by: java.lang.RuntimeException: Connection closed.
+	at io.dingodb.net.netty.Connection.send(Connection.java:174)
+	at io.dingodb.net.netty.Channel.send(Channel.java:212)
+	at io.dingodb.net.netty.api.RandomChannelProxy.invoke(RandomChannelProxy.java:78)
+	at io.dingodb.net.netty.api.ApiProxy.invoke(ApiProxy.java:80)
+	... 26 common frames omitted
+2024-04-03 10:43:23.625 [<172.20.3.13:8765/1/client>-31] ERROR i.d.net.netty.api.RandomChannelProxy - Invoke proxy method [public abstract org.apache.calcite.avatica.remote.Service$CloseConnectionResponse io.dingodb.driver.api.DriverProxyApi.apply(org.apache.calcite.avatica.remote.Service$CloseConnectionRequest)] on [Location(host=172.20.3.13, port=8765)/312] error.
+java.util.concurrent.ExecutionException: java.lang.reflect.InvocationTargetException: Invoke on [172.20.3.13:8765] failed.
+	at java.util.concurrent.CompletableFuture.reportGet(CompletableFuture.java:357)
+	at java.util.concurrent.CompletableFuture.get(CompletableFuture.java:1915)
+	at io.dingodb.net.netty.api.ApiProxy.invoke(ApiProxy.java:96)
+	at io.dingodb.net.netty.api.RandomChannelProxy.invoke(RandomChannelProxy.java:85)
+	at com.sun.proxy.$Proxy12.apply(Unknown Source)
+	at io.dingodb.driver.ServiceInvocationHandler.apply(ServiceInvocationHandler.java:45)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at io.dingodb.driver.ServiceInvocationHandler.invoke(ServiceInvocationHandler.java:57)
+	at com.sun.proxy.$Proxy13.apply(Unknown Source)
+	at io.dingodb.driver.DingoServiceImpl.apply(DingoServiceImpl.java:34)
+	at org.apache.calcite.avatica.remote.RemoteMeta$4.call(RemoteMeta.java:125)
+	at org.apache.calcite.avatica.remote.RemoteMeta$4.call(RemoteMeta.java:122)
+	at org.apache.calcite.avatica.AvaticaConnection.invokeWithRetries(AvaticaConnection.java:795)
+	at org.apache.calcite.avatica.remote.RemoteMeta.closeConnection(RemoteMeta.java:121)
+	at org.apache.calcite.avatica.remote.DingoRemoteMeta.closeConnection(DingoRemoteMeta.java:26)
+	at org.apache.calcite.avatica.AvaticaConnection.close(AvaticaConnection.java:218)
+	at io.dingodb.driver.client.DingoDriverClient.lambda$createMeta$1(DingoDriverClient.java:223)
+	at io.dingodb.common.util.NoBreakFunctions$WrappedConsumer.accept(NoBreakFunctions.java:275)
+	at io.dingodb.net.netty.Channel.lambda$shutdown$3(Channel.java:99)
+	at io.dingodb.common.concurrent.LinkedRunner$RunnerNode.run(LinkedRunner.java:77)
+	at io.dingodb.common.concurrent.LinkedRunner.lambda$submit$2(LinkedRunner.java:120)
+	at io.dingodb.common.concurrent.Executors.run(Executors.java:213)
+	at io.dingodb.common.concurrent.Executors.lambda$wrap$10(Executors.java:168)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.lang.reflect.InvocationTargetException: Invoke on [172.20.3.13:8765] failed.
+	at io.dingodb.net.netty.api.ApiProxy.completeExceptionally(ApiProxy.java:129)
+	at io.dingodb.net.netty.api.ApiProxy.invoke(ApiProxy.java:89)
+	... 26 common frames omitted
+Caused by: java.lang.RuntimeException: Connection closed.
+	at io.dingodb.net.netty.Connection.send(Connection.java:174)
+	at io.dingodb.net.netty.Channel.send(Channel.java:212)
+	at io.dingodb.net.netty.api.RandomChannelProxy.invoke(RandomChannelProxy.java:78)
+	at io.dingodb.net.netty.api.ApiProxy.invoke(ApiProxy.java:80)
+	... 26 common frames omitted
+2024-04-03 10:43:23.626 [<172.20.3.13:8765/13/client>-54] ERROR i.d.net.netty.api.RandomChannelProxy - Invoke proxy method [public abstract org.apache.calcite.avatica.remote.Service$CloseConnectionResponse io.dingodb.driver.api.DriverProxyApi.apply(org.apache.calcite.avatica.remote.Service$CloseConnectionRequest)] on [Location(host=172.20.3.13, port=8765)/311] error.
+java.util.concurrent.ExecutionException: java.lang.reflect.InvocationTargetException: Invoke on [172.20.3.13:8765] failed.
+	at java.util.concurrent.CompletableFuture.reportGet(CompletableFuture.java:357)
+	at java.util.concurrent.CompletableFuture.get(CompletableFuture.java:1915)
+	at io.dingodb.net.netty.api.ApiProxy.invoke(ApiProxy.java:96)
+	at io.dingodb.net.netty.api.RandomChannelProxy.invoke(RandomChannelProxy.java:85)
+	at com.sun.proxy.$Proxy12.apply(Unknown Source)
+	at io.dingodb.driver.ServiceInvocationHandler.apply(ServiceInvocationHandler.java:45)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at io.dingodb.driver.ServiceInvocationHandler.invoke(ServiceInvocationHandler.java:57)
+	at com.sun.proxy.$Proxy13.apply(Unknown Source)
+	at io.dingodb.driver.DingoServiceImpl.apply(DingoServiceImpl.java:34)
+	at org.apache.calcite.avatica.remote.RemoteMeta$4.call(RemoteMeta.java:125)
+	at org.apache.calcite.avatica.remote.RemoteMeta$4.call(RemoteMeta.java:122)
+	at org.apache.calcite.avatica.AvaticaConnection.invokeWithRetries(AvaticaConnection.java:795)
+	at org.apache.calcite.avatica.remote.RemoteMeta.closeConnection(RemoteMeta.java:121)
+	at org.apache.calcite.avatica.remote.DingoRemoteMeta.closeConnection(DingoRemoteMeta.java:26)
+	at org.apache.calcite.avatica.AvaticaConnection.close(AvaticaConnection.java:218)
+	at io.dingodb.driver.client.DingoDriverClient.lambda$createMeta$1(DingoDriverClient.java:223)
+	at io.dingodb.common.util.NoBreakFunctions$WrappedConsumer.accept(NoBreakFunctions.java:275)
+	at io.dingodb.net.netty.Channel.lambda$shutdown$3(Channel.java:99)
+	at io.dingodb.common.concurrent.LinkedRunner$RunnerNode.run(LinkedRunner.java:77)
+	at io.dingodb.common.concurrent.LinkedRunner.lambda$submit$2(LinkedRunner.java:120)
+	at io.dingodb.common.concurrent.Executors.run(Executors.java:213)
+	at io.dingodb.common.concurrent.Executors.lambda$wrap$10(Executors.java:168)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.lang.reflect.InvocationTargetException: Invoke on [172.20.3.13:8765] failed.
+	at io.dingodb.net.netty.api.ApiProxy.completeExceptionally(ApiProxy.java:129)
+	at io.dingodb.net.netty.api.ApiProxy.invoke(ApiProxy.java:89)
+	... 26 common frames omitted
+Caused by: java.lang.RuntimeException: Connection closed.
+	at io.dingodb.net.netty.Connection.send(Connection.java:174)
+	at io.dingodb.net.netty.Channel.send(Channel.java:212)
+	at io.dingodb.net.netty.api.RandomChannelProxy.invoke(RandomChannelProxy.java:78)
+	at io.dingodb.net.netty.api.ApiProxy.invoke(ApiProxy.java:80)
+	... 26 common frames omitted
+2024-04-03 10:43:23.626 [<172.20.3.13:8765/7/client>-51] ERROR i.d.net.netty.api.RandomChannelProxy - Invoke proxy method [public abstract org.apache.calcite.avatica.remote.Service$CloseConnectionResponse io.dingodb.driver.api.DriverProxyApi.apply(org.apache.calcite.avatica.remote.Service$CloseConnectionRequest)] on [Location(host=172.20.3.13, port=8765)/306] error.
+java.util.concurrent.ExecutionException: java.lang.reflect.InvocationTargetException: Invoke on [172.20.3.13:8765] failed.
+	at java.util.concurrent.CompletableFuture.reportGet(CompletableFuture.java:357)
+	at java.util.concurrent.CompletableFuture.get(CompletableFuture.java:1915)
+	at io.dingodb.net.netty.api.ApiProxy.invoke(ApiProxy.java:96)
+	at io.dingodb.net.netty.api.RandomChannelProxy.invoke(RandomChannelProxy.java:85)
+	at com.sun.proxy.$Proxy12.apply(Unknown Source)
+	at io.dingodb.driver.ServiceInvocationHandler.apply(ServiceInvocationHandler.java:45)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at io.dingodb.driver.ServiceInvocationHandler.invoke(ServiceInvocationHandler.java:57)
+	at com.sun.proxy.$Proxy13.apply(Unknown Source)
+	at io.dingodb.driver.DingoServiceImpl.apply(DingoServiceImpl.java:34)
+	at org.apache.calcite.avatica.remote.RemoteMeta$4.call(RemoteMeta.java:125)
+	at org.apache.calcite.avatica.remote.RemoteMeta$4.call(RemoteMeta.java:122)
+	at org.apache.calcite.avatica.AvaticaConnection.invokeWithRetries(AvaticaConnection.java:795)
+	at org.apache.calcite.avatica.remote.RemoteMeta.closeConnection(RemoteMeta.java:121)
+	at org.apache.calcite.avatica.remote.DingoRemoteMeta.closeConnection(DingoRemoteMeta.java:26)
+	at org.apache.calcite.avatica.AvaticaConnection.close(AvaticaConnection.java:218)
+	at io.dingodb.driver.client.DingoDriverClient.lambda$createMeta$1(DingoDriverClient.java:223)
+	at io.dingodb.common.util.NoBreakFunctions$WrappedConsumer.accept(NoBreakFunctions.java:275)
+	at io.dingodb.net.netty.Channel.lambda$shutdown$3(Channel.java:99)
+	at io.dingodb.common.concurrent.LinkedRunner$RunnerNode.run(LinkedRunner.java:77)
+	at io.dingodb.common.concurrent.LinkedRunner.lambda$submit$2(LinkedRunner.java:120)
+	at io.dingodb.common.concurrent.Executors.run(Executors.java:213)
+	at io.dingodb.common.concurrent.Executors.lambda$wrap$10(Executors.java:168)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.lang.reflect.InvocationTargetException: Invoke on [172.20.3.13:8765] failed.
+	at io.dingodb.net.netty.api.ApiProxy.completeExceptionally(ApiProxy.java:129)
+	at io.dingodb.net.netty.api.ApiProxy.invoke(ApiProxy.java:89)
+	... 26 common frames omitted
+Caused by: java.lang.RuntimeException: Connection closed.
+	at io.dingodb.net.netty.Connection.send(Connection.java:174)
+	at io.dingodb.net.netty.Channel.send(Channel.java:212)
+	at io.dingodb.net.netty.api.RandomChannelProxy.invoke(RandomChannelProxy.java:78)
+	at io.dingodb.net.netty.api.ApiProxy.invoke(ApiProxy.java:80)
+	... 26 common frames omitted
+2024-04-03 10:43:23.628 [<172.20.3.13:8765/19/client>-16] ERROR i.d.common.util.NoBreakFunctions - Execute consumer error.
+java.sql.SQLException: While closing connection
+	at org.apache.calcite.avatica.Helper.createException(Helper.java:56)
+	at org.apache.calcite.avatica.Helper.createException(Helper.java:41)
+	at org.apache.calcite.avatica.AvaticaConnection.close(AvaticaConnection.java:224)
+	at io.dingodb.driver.client.DingoDriverClient.lambda$createMeta$1(DingoDriverClient.java:223)
+	at io.dingodb.common.util.NoBreakFunctions$WrappedConsumer.accept(NoBreakFunctions.java:275)
+	at io.dingodb.net.netty.Channel.lambda$shutdown$3(Channel.java:99)
+	at io.dingodb.common.concurrent.LinkedRunner$RunnerNode.run(LinkedRunner.java:77)
+	at io.dingodb.common.concurrent.LinkedRunner.lambda$submit$2(LinkedRunner.java:120)
+	at io.dingodb.common.concurrent.Executors.run(Executors.java:213)
+	at io.dingodb.common.concurrent.Executors.lambda$wrap$10(Executors.java:168)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.lang.RuntimeException: Connection closed.
+	at io.dingodb.net.netty.Connection.send(Connection.java:174)
+	at io.dingodb.net.netty.Channel.send(Channel.java:212)
+	at io.dingodb.net.netty.api.RandomChannelProxy.invoke(RandomChannelProxy.java:78)
+	at io.dingodb.net.netty.api.ApiProxy.invoke(ApiProxy.java:80)
+	at io.dingodb.net.netty.api.RandomChannelProxy.invoke(RandomChannelProxy.java:85)
+	at com.sun.proxy.$Proxy12.apply(Unknown Source)
+	at io.dingodb.driver.ServiceInvocationHandler.apply(ServiceInvocationHandler.java:45)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at io.dingodb.driver.ServiceInvocationHandler.invoke(ServiceInvocationHandler.java:57)
+	at com.sun.proxy.$Proxy13.apply(Unknown Source)
+	at io.dingodb.driver.DingoServiceImpl.apply(DingoServiceImpl.java:34)
+	at org.apache.calcite.avatica.remote.RemoteMeta$4.call(RemoteMeta.java:125)
+	at org.apache.calcite.avatica.remote.RemoteMeta$4.call(RemoteMeta.java:122)
+	at org.apache.calcite.avatica.AvaticaConnection.invokeWithRetries(AvaticaConnection.java:795)
+	at org.apache.calcite.avatica.remote.RemoteMeta.closeConnection(RemoteMeta.java:121)
+	at org.apache.calcite.avatica.remote.DingoRemoteMeta.closeConnection(DingoRemoteMeta.java:26)
+	at org.apache.calcite.avatica.AvaticaConnection.close(AvaticaConnection.java:218)
+	... 10 common frames omitted
+2024-04-03 10:43:23.628 [on-invoke-complete-65] ERROR io.dingodb.net.netty.Channel - Send close message error.
+java.lang.RuntimeException: Connection closed.
+	at io.dingodb.net.netty.Connection.sendAsync(Connection.java:181)
+	at io.dingodb.net.netty.Channel.close(Channel.java:205)
+	at io.dingodb.net.netty.api.RandomChannelProxy.lambda$invoke$0(RandomChannelProxy.java:73)
+	at java.util.concurrent.CompletableFuture.uniWhenComplete(CompletableFuture.java:760)
+	at java.util.concurrent.CompletableFuture$UniWhenComplete.tryFire(CompletableFuture.java:736)
+	at java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:442)
+	at io.dingodb.common.concurrent.Executors.run(Executors.java:213)
+	at io.dingodb.common.concurrent.Executors.lambda$wrap$10(Executors.java:168)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+2024-04-03 10:43:23.628 [<172.20.3.13:8765/7/client>-51] ERROR i.d.common.util.NoBreakFunctions - Execute consumer error.
+java.sql.SQLException: While closing connection
+	at org.apache.calcite.avatica.Helper.createException(Helper.java:56)
+	at org.apache.calcite.avatica.Helper.createException(Helper.java:41)
+	at org.apache.calcite.avatica.AvaticaConnection.close(AvaticaConnection.java:224)
+	at io.dingodb.driver.client.DingoDriverClient.lambda$createMeta$1(DingoDriverClient.java:223)
+	at io.dingodb.common.util.NoBreakFunctions$WrappedConsumer.accept(NoBreakFunctions.java:275)
+	at io.dingodb.net.netty.Channel.lambda$shutdown$3(Channel.java:99)
+	at io.dingodb.common.concurrent.LinkedRunner$RunnerNode.run(LinkedRunner.java:77)
+	at io.dingodb.common.concurrent.LinkedRunner.lambda$submit$2(LinkedRunner.java:120)
+	at io.dingodb.common.concurrent.Executors.run(Executors.java:213)
+	at io.dingodb.common.concurrent.Executors.lambda$wrap$10(Executors.java:168)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.lang.RuntimeException: Connection closed.
+	at io.dingodb.net.netty.Connection.send(Connection.java:174)
+	at io.dingodb.net.netty.Channel.send(Channel.java:212)
+	at io.dingodb.net.netty.api.RandomChannelProxy.invoke(RandomChannelProxy.java:78)
+	at io.dingodb.net.netty.api.ApiProxy.invoke(ApiProxy.java:80)
+	at io.dingodb.net.netty.api.RandomChannelProxy.invoke(RandomChannelProxy.java:85)
+	at com.sun.proxy.$Proxy12.apply(Unknown Source)
+	at io.dingodb.driver.ServiceInvocationHandler.apply(ServiceInvocationHandler.java:45)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at io.dingodb.driver.ServiceInvocationHandler.invoke(ServiceInvocationHandler.java:57)
+	at com.sun.proxy.$Proxy13.apply(Unknown Source)
+	at io.dingodb.driver.DingoServiceImpl.apply(DingoServiceImpl.java:34)
+	at org.apache.calcite.avatica.remote.RemoteMeta$4.call(RemoteMeta.java:125)
+	at org.apache.calcite.avatica.remote.RemoteMeta$4.call(RemoteMeta.java:122)
+	at org.apache.calcite.avatica.AvaticaConnection.invokeWithRetries(AvaticaConnection.java:795)
+	at org.apache.calcite.avatica.remote.RemoteMeta.closeConnection(RemoteMeta.java:121)
+	at org.apache.calcite.avatica.remote.DingoRemoteMeta.closeConnection(DingoRemoteMeta.java:26)
+	at org.apache.calcite.avatica.AvaticaConnection.close(AvaticaConnection.java:218)
+	... 10 common frames omitted
+2024-04-03 10:43:23.629 [<172.20.3.13:8765/25/client>-52] ERROR i.d.net.netty.api.RandomChannelProxy - Invoke proxy method [public abstract org.apache.calcite.avatica.remote.Service$CloseConnectionResponse io.dingodb.driver.api.DriverProxyApi.apply(org.apache.calcite.avatica.remote.Service$CloseConnectionRequest)] on [Location(host=172.20.3.13, port=8765)/309] error.
+java.util.concurrent.ExecutionException: java.lang.reflect.InvocationTargetException: Invoke on [172.20.3.13:8765] failed.
+	at java.util.concurrent.CompletableFuture.reportGet(CompletableFuture.java:357)
+	at java.util.concurrent.CompletableFuture.get(CompletableFuture.java:1915)
+	at io.dingodb.net.netty.api.ApiProxy.invoke(ApiProxy.java:96)
+	at io.dingodb.net.netty.api.RandomChannelProxy.invoke(RandomChannelProxy.java:85)
+	at com.sun.proxy.$Proxy12.apply(Unknown Source)
+	at io.dingodb.driver.ServiceInvocationHandler.apply(ServiceInvocationHandler.java:45)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at io.dingodb.driver.ServiceInvocationHandler.invoke(ServiceInvocationHandler.java:57)
+	at com.sun.proxy.$Proxy13.apply(Unknown Source)
+	at io.dingodb.driver.DingoServiceImpl.apply(DingoServiceImpl.java:34)
+	at org.apache.calcite.avatica.remote.RemoteMeta$4.call(RemoteMeta.java:125)
+	at org.apache.calcite.avatica.remote.RemoteMeta$4.call(RemoteMeta.java:122)
+	at org.apache.calcite.avatica.AvaticaConnection.invokeWithRetries(AvaticaConnection.java:795)
+	at org.apache.calcite.avatica.remote.RemoteMeta.closeConnection(RemoteMeta.java:121)
+	at org.apache.calcite.avatica.remote.DingoRemoteMeta.closeConnection(DingoRemoteMeta.java:26)
+	at org.apache.calcite.avatica.AvaticaConnection.close(AvaticaConnection.java:218)
+	at io.dingodb.driver.client.DingoDriverClient.lambda$createMeta$1(DingoDriverClient.java:223)
+	at io.dingodb.common.util.NoBreakFunctions$WrappedConsumer.accept(NoBreakFunctions.java:275)
+	at io.dingodb.net.netty.Channel.lambda$shutdown$3(Channel.java:99)
+	at io.dingodb.common.concurrent.LinkedRunner$RunnerNode.run(LinkedRunner.java:77)
+	at io.dingodb.common.concurrent.LinkedRunner.lambda$submit$2(LinkedRunner.java:120)
+	at io.dingodb.common.concurrent.Executors.run(Executors.java:213)
+	at io.dingodb.common.concurrent.Executors.lambda$wrap$10(Executors.java:168)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.lang.reflect.InvocationTargetException: Invoke on [172.20.3.13:8765] failed.
+	at io.dingodb.net.netty.api.ApiProxy.completeExceptionally(ApiProxy.java:129)
+	at io.dingodb.net.netty.api.ApiProxy.invoke(ApiProxy.java:89)
+	... 26 common frames omitted
+Caused by: java.lang.RuntimeException: Connection closed.
+	at io.dingodb.net.netty.Connection.send(Connection.java:174)
+	at io.dingodb.net.netty.Channel.send(Channel.java:212)
+	at io.dingodb.net.netty.api.RandomChannelProxy.invoke(RandomChannelProxy.java:78)
+	at io.dingodb.net.netty.api.ApiProxy.invoke(ApiProxy.java:80)
+	... 26 common frames omitted
+2024-04-03 10:43:23.629 [on-invoke-complete-70] ERROR io.dingodb.net.netty.Channel - Send close message error.
+java.lang.RuntimeException: Connection closed.
+	at io.dingodb.net.netty.Connection.sendAsync(Connection.java:181)
+	at io.dingodb.net.netty.Channel.close(Channel.java:205)
+	at io.dingodb.net.netty.api.RandomChannelProxy.lambda$invoke$0(RandomChannelProxy.java:73)
+	at java.util.concurrent.CompletableFuture.uniWhenComplete(CompletableFuture.java:760)
+	at java.util.concurrent.CompletableFuture$UniWhenComplete.tryFire(CompletableFuture.java:736)
+	at java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:442)
+	at io.dingodb.common.concurrent.Executors.run(Executors.java:213)
+	at io.dingodb.common.concurrent.Executors.lambda$wrap$10(Executors.java:168)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+2024-04-03 10:43:23.629 [<172.20.3.13:8765/25/client>-52] ERROR i.d.common.util.NoBreakFunctions - Execute consumer error.
+java.sql.SQLException: While closing connection
+	at org.apache.calcite.avatica.Helper.createException(Helper.java:56)
+	at org.apache.calcite.avatica.Helper.createException(Helper.java:41)
+	at org.apache.calcite.avatica.AvaticaConnection.close(AvaticaConnection.java:224)
+	at io.dingodb.driver.client.DingoDriverClient.lambda$createMeta$1(DingoDriverClient.java:223)
+	at io.dingodb.common.util.NoBreakFunctions$WrappedConsumer.accept(NoBreakFunctions.java:275)
+	at io.dingodb.net.netty.Channel.lambda$shutdown$3(Channel.java:99)
+	at io.dingodb.common.concurrent.LinkedRunner$RunnerNode.run(LinkedRunner.java:77)
+	at io.dingodb.common.concurrent.LinkedRunner.lambda$submit$2(LinkedRunner.java:120)
+	at io.dingodb.common.concurrent.Executors.run(Executors.java:213)
+	at io.dingodb.common.concurrent.Executors.lambda$wrap$10(Executors.java:168)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.lang.RuntimeException: Connection closed.
+	at io.dingodb.net.netty.Connection.send(Connection.java:174)
+	at io.dingodb.net.netty.Channel.send(Channel.java:212)
+	at io.dingodb.net.netty.api.RandomChannelProxy.invoke(RandomChannelProxy.java:78)
+	at io.dingodb.net.netty.api.ApiProxy.invoke(ApiProxy.java:80)
+	at io.dingodb.net.netty.api.RandomChannelProxy.invoke(RandomChannelProxy.java:85)
+	at com.sun.proxy.$Proxy12.apply(Unknown Source)
+	at io.dingodb.driver.ServiceInvocationHandler.apply(ServiceInvocationHandler.java:45)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at io.dingodb.driver.ServiceInvocationHandler.invoke(ServiceInvocationHandler.java:57)
+	at com.sun.proxy.$Proxy13.apply(Unknown Source)
+	at io.dingodb.driver.DingoServiceImpl.apply(DingoServiceImpl.java:34)
+	at org.apache.calcite.avatica.remote.RemoteMeta$4.call(RemoteMeta.java:125)
+	at org.apache.calcite.avatica.remote.RemoteMeta$4.call(RemoteMeta.java:122)
+	at org.apache.calcite.avatica.AvaticaConnection.invokeWithRetries(AvaticaConnection.java:795)
+	at org.apache.calcite.avatica.remote.RemoteMeta.closeConnection(RemoteMeta.java:121)
+	at org.apache.calcite.avatica.remote.DingoRemoteMeta.closeConnection(DingoRemoteMeta.java:26)
+	at org.apache.calcite.avatica.AvaticaConnection.close(AvaticaConnection.java:218)
+	... 10 common frames omitted
+2024-04-03 10:43:23.628 [<172.20.3.13:8765/31/client>-55] ERROR i.d.net.netty.api.RandomChannelProxy - Invoke proxy method [public abstract org.apache.calcite.avatica.remote.Service$CloseConnectionResponse io.dingodb.driver.api.DriverProxyApi.apply(org.apache.calcite.avatica.remote.Service$CloseConnectionRequest)] on [Location(host=172.20.3.13, port=8765)/313] error.
+java.util.concurrent.ExecutionException: java.lang.reflect.InvocationTargetException: Invoke on [172.20.3.13:8765] failed.
+	at java.util.concurrent.CompletableFuture.reportGet(CompletableFuture.java:357)
+	at java.util.concurrent.CompletableFuture.get(CompletableFuture.java:1915)
+	at io.dingodb.net.netty.api.ApiProxy.invoke(ApiProxy.java:96)
+	at io.dingodb.net.netty.api.RandomChannelProxy.invoke(RandomChannelProxy.java:85)
+	at com.sun.proxy.$Proxy12.apply(Unknown Source)
+	at io.dingodb.driver.ServiceInvocationHandler.apply(ServiceInvocationHandler.java:45)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at io.dingodb.driver.ServiceInvocationHandler.invoke(ServiceInvocationHandler.java:57)
+	at com.sun.proxy.$Proxy13.apply(Unknown Source)
+	at io.dingodb.driver.DingoServiceImpl.apply(DingoServiceImpl.java:34)
+	at org.apache.calcite.avatica.remote.RemoteMeta$4.call(RemoteMeta.java:125)
+	at org.apache.calcite.avatica.remote.RemoteMeta$4.call(RemoteMeta.java:122)
+	at org.apache.calcite.avatica.AvaticaConnection.invokeWithRetries(AvaticaConnection.java:795)
+	at org.apache.calcite.avatica.remote.RemoteMeta.closeConnection(RemoteMeta.java:121)
+	at org.apache.calcite.avatica.remote.DingoRemoteMeta.closeConnection(DingoRemoteMeta.java:26)
+	at org.apache.calcite.avatica.AvaticaConnection.close(AvaticaConnection.java:218)
+	at io.dingodb.driver.client.DingoDriverClient.lambda$createMeta$1(DingoDriverClient.java:223)
+	at io.dingodb.common.util.NoBreakFunctions$WrappedConsumer.accept(NoBreakFunctions.java:275)
+	at io.dingodb.net.netty.Channel.lambda$shutdown$3(Channel.java:99)
+	at io.dingodb.common.concurrent.LinkedRunner$RunnerNode.run(LinkedRunner.java:77)
+	at io.dingodb.common.concurrent.LinkedRunner.lambda$submit$2(LinkedRunner.java:120)
+	at io.dingodb.common.concurrent.Executors.run(Executors.java:213)
+	at io.dingodb.common.concurrent.Executors.lambda$wrap$10(Executors.java:168)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.lang.reflect.InvocationTargetException: Invoke on [172.20.3.13:8765] failed.
+	at io.dingodb.net.netty.api.ApiProxy.completeExceptionally(ApiProxy.java:129)
+	at io.dingodb.net.netty.api.ApiProxy.invoke(ApiProxy.java:89)
+	... 26 common frames omitted
+Caused by: java.lang.RuntimeException: Connection closed.
+	at io.dingodb.net.netty.Connection.send(Connection.java:174)
+	at io.dingodb.net.netty.Channel.send(Channel.java:212)
+	at io.dingodb.net.netty.api.RandomChannelProxy.invoke(RandomChannelProxy.java:78)
+	at io.dingodb.net.netty.api.ApiProxy.invoke(ApiProxy.java:80)
+	... 26 common frames omitted

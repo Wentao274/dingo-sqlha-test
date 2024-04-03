@@ -1,0 +1,15 @@
+cluster:
+    name: dingo
+exchange:
+    host: 172.20.3.13
+    port: 8765
+client:
+    coordinatorExchangeSvrList: 172.20.3.13:22001,172.20.3.219:22001,172.20.3.15:22001
+security:
+    cipher:
+        keyPath: src/main/resources/conf/dingodb.jks
+        keyPass: dingodb
+        storePass: dingodb
+        alias: dingodb
+        issuer: dingo
+    verify: true
